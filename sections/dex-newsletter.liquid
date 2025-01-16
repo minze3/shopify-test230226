@@ -7,7 +7,10 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
   .dex-newsletter {
-    background-image: url({{ section.settings.image | image_url }})
+    background-image: url({{ section.settings.image | image_url }});
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
 
   @media screen and (min-width: 750px) {
@@ -20,7 +23,7 @@
 
 <div class="dex-newsletter center color-{{ section.settings.color_scheme }}">
   <div class="dex-newsletter_box {% if section.settings.full_width == false %}dex-newsletter--narrow page-width{% endif %}">
-    <div class="dex-newsletter__wrapper gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    <div class="dex-newsletter__wrapper content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when '@app' -%}
