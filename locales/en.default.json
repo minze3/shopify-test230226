@@ -535,12 +535,12 @@
       "send_on_label": "Send on (optional)"
     }
   },
-  "dex-video": {
-    "load_video": "Load video: {{ description }}"
-  },
   "dex-newsletter": {
     "label": "Email",
     "success": "Thanks for subscribing",
     "button_label": "Subscribe"
+  },
+  "dex-video": {
+    "load_video": "Load video: {{ description }}"
   },
 }
