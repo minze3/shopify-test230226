@@ -3430,7 +3430,7 @@
       "name": "Dex Email signup",
       "settings": {
         "image": {
-          "label": "Head image"
+          "label": "Tip image"
         },
         "full_width": {
           "label": "Make section full width"
