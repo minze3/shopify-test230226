@@ -17,7 +17,7 @@
 
 <div class="dex-newsletter center color-{{ section.settings.color_scheme }}">
   <div class="{% if section.settings.full_width == false %}dex-newsletter--narrow page-width{% endif %}">
-    <div class="dex-newsletter__wrapper {% if section.settings.full_width == false %}dex-newsletter--narrow page-width{% endif %} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    <div class="dex-newsletter__wrapper gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when '@app' -%}
