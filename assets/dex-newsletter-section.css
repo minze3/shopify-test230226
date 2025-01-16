@@ -4,12 +4,12 @@
   text-align:left;
 }
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
   .dex-newsletter__wrapper {
     padding-right: 9rem;
     padding-left: 9rem;
   }
-}
+} */
 
 .dex-newsletter__wrapper > * {
   margin-top: 0;
