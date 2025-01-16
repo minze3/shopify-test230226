@@ -6,6 +6,9 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  .dex-newsletter {
+    background-image: {{ section.settings.image | image_url }}
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
