@@ -3446,6 +3446,15 @@
             }
           }
         },
+        "paragraph2": {
+          "name": "Subheading",
+          "settings": {
+            "paragraph": {
+              "label": "Description",
+              "default": "<p>Be the first to know about new collections and exclusive offers.</p>"
+            }
+          }
+        },
         "paragraph": {
           "name": "Subheading",
           "settings": {
