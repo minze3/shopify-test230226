@@ -9,29 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
-    "dex_video_6g7cGf": {
-      "type": "dex-video",
-      "custom_css": [],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/442b8607d7534c9883d32da83c0f439a.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "Unlock Limitless Possibility",
-        "full_width": false,
-        "color_scheme": "scheme-3",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "dex_newsletter_gixCRx": {
       "type": "dex-newsletter",
       "blocks": {
@@ -70,6 +47,29 @@
         "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "dex_video_6g7cGf": {
+      "type": "dex-video",
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/442b8607d7534c9883d32da83c0f439a.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "Unlock Limitless Possibility",
+        "full_width": false,
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_fU8a7t": {
@@ -121,8 +121,8 @@
   },
   "order": [
     "main",
-    "dex_video_6g7cGf",
     "dex_newsletter_gixCRx",
+    "dex_video_6g7cGf",
     "image_with_text_fU8a7t"
   ]
 }
