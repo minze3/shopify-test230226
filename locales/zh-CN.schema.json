@@ -3429,6 +3429,9 @@
     "dex-newsletter": {
       "name": "Dex 电子邮件注册",
       "settings": {
+       "image": {
+          "label": "标题图片"
+        },
         "full_width": {
           "label": "使分区展示全宽"
         },
