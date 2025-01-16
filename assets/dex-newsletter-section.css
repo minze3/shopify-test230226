@@ -11,6 +11,10 @@
   }
 } */
 
+.dex-newsletter__box > * {
+  padding:0;
+}
+
 .dex-newsletter__wrapper > * {
   margin-top: 0;
   margin-bottom: 0;
