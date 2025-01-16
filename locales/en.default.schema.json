@@ -3429,6 +3429,9 @@
     "dex-newsletter": {
       "name": "Dex Email signup",
       "settings": {
+        "image": {
+          "label": "Head image"
+        },
         "full_width": {
           "label": "Make section full width"
         },
