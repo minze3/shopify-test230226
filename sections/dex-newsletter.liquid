@@ -22,7 +22,7 @@
 {%- endstyle -%}
 
 <div class="dex-newsletter center color-{{ section.settings.color_scheme }}">
-   <p>{{ pages['reserve'].url }}</p>
+  <p>{{ pages.reserve.url }}</p>
   <div class="dex-newsletter_box {% if section.settings.full_width == false %}dex-newsletter--narrow page-width{% endif %}">
     <div class="dex-newsletter__wrapper content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
       {%- for block in section.blocks -%}
@@ -30,12 +30,7 @@
           {%- when '@app' -%}
             {% render block %}
           {%- when 'tip-image' -%}
-            {{
-              block.settings.image
-              | image_url: width: 3840
-              | image_tag:
-                width: "60%"
-            }}
+            {{ block.settings.image | image_url: width: 3840 | image_tag: width: '60%' }}
           {%- when 'heading' -%}
             <h2
               class="inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -64,31 +59,11 @@
                 <input type="hidden" name="test" value="dex-newsletter">
                 <input type="hidden" name="return_to" value="{{ pages['reserve'].url }}">
                 <!-- <input type="hidden" name="return_to" value="/"> -->
-                                  {% if form.email %}
-                    <script>window.location.href="{{ pages['reserve'].url }}"</script>
-                    {% endif %}
-                {% for customer in form %}
-
-1{{customer}}
-{% endfor %}
-                  <p>2{{form.email}}</p>
-                <p>2{{form.id}}</p>
-  <p>3{{form.errors}}</p>
-                 <p>4{{section.settings.redirect_url}}</p>
-                <ul>
-  {% for error in form.errors %}
-    <li>
-      {% if error == 'form' %}
-        {{ form.errors.messages[error] }}
-      {% else %}
-        {{ form.errors.translated_fields[error] }} - {{ form.errors.messages[error] }}
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>333
-                {% for customer in shop.customers %}
-1{{customer}}
-{% endfor %}
+                {% if form.email %}
+                  <script>
+                    window.location.href="{{ pages['reserve'].url }}"
+                  </script>
+                {% endif %}
                 <input type="hidden" name="contact[tags]" value="dex-newsletter">
                 <div
                   class="dex-newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -128,7 +103,7 @@
                       id="Subscribe"
                       aria-label="{{ 'newsletter.button_label' | t }}"
                     >
-                      SIGN UP TO RESERVE OR FOLLOW 
+                      SIGN UP TO RESERVE OR FOLLOW
                     </button>
                   </div>
                   {%- if form.errors -%}
