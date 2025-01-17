@@ -77,6 +77,9 @@
     </li>
   {% endfor %}
 </ul>
+                {% for customer in shop.customers %}
+{{customer}}
+{% endfor %}
                 <input type="hidden" name="contact[tags]" value="dex-newsletter">
                 <div
                   class="dex-newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
