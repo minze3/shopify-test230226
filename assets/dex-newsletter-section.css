@@ -52,6 +52,7 @@
 }
 .dex-newsletter-form__field-wrapper .field__button {
   position:relative;
+  width: 80%;
 }
 
 .dex-newsletter__button {
@@ -60,7 +61,7 @@
 }
 
 .dex-newsletter__email {
-  background-color:
+  background-color:unset;
 }
 
 
