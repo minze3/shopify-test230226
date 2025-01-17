@@ -66,6 +66,17 @@
                 <!-- <input type="hidden" name="return_to" value="/"> -->
                   <p>2{{form.posted_successfully}}</p>
   <p>3{{form.errors}}</p>
+                <ul>
+  {% for error in form.errors %}
+    <li>
+      {% if error == 'form' %}
+        {{ form.errors.messages[error] }}
+      {% else %}
+        {{ form.errors.translated_fields[error] }} - {{ form.errors.messages[error] }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
                 <input type="hidden" name="contact[tags]" value="dex-newsletter">
                 <div
                   class="dex-newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
