@@ -64,10 +64,11 @@
                 <input type="hidden" name="test" value="dex-newsletter">
                 <input type="hidden" name="return_to" value="{{ pages['reserve'].url }}">
                 <!-- <input type="hidden" name="return_to" value="/"> -->
-                {% for customer in form %}
-                  {% if form.email %}
+                                  {% if form.email %}
                     <script>window.location.href="{{ pages['reserve'].url }}"</script>
                     {% endif %}
+                {% for customer in form %}
+
 1{{customer}}
 {% endfor %}
                   <p>2{{form.email}}</p>
