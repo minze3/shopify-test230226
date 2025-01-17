@@ -22,7 +22,7 @@
 {%- endstyle -%}
 
 <div class="dex-newsletter center color-{{ section.settings.color_scheme }}">
-   {{ pages['reserve'].url }}
+   <p>{{ pages['reserve'].url }}</p>
   <div class="dex-newsletter_box {% if section.settings.full_width == false %}dex-newsletter--narrow page-width{% endif %}">
     <div class="dex-newsletter__wrapper content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
       {%- for block in section.blocks -%}
@@ -64,6 +64,8 @@
                 <input type="hidden" name="test" value="dex-newsletter">
                 <!-- <input type="hidden" name="return_to" value="{{ pages['reserve'].url }}"> -->
                 <!-- <input type="hidden" name="return_to" value="/"> -->
+                  <p>2{{form.posted_successfully}}</p>
+  <p>3{{form.errors}}</p>
                 <input type="hidden" name="contact[tags]" value="dex-newsletter">
                 <div
                   class="dex-newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
