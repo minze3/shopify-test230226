@@ -56,6 +56,12 @@
 .dex-newsletter-form__field-wrapper .field__input:focus {
   box-shadow: none;
 }
+.dex-newsletter-form__field-wrapper .field:before {
+  visibility:hidden;
+}
+.dex-newsletter-form__field-wrapper .field:after {
+  visibility:hidden;
+}
 
 .dex-newsletter-form__field-wrapper .button {
   width: 90%;
