@@ -58,8 +58,9 @@
 }
 
 .dex-newsletter-form__field-wrapper .button {
-  width: 80%;
-  margin-top: 1.2rem; 
+  width: 90%;
+  margin-top: 1.2rem;
+  padding:0;
 }
 
 .dex-newsletter__button {
