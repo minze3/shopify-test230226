@@ -21,6 +21,10 @@
   margin-bottom: 0;
 }
 
+.dex-newsletter__wrapper > image {
+  display:block;
+}
+
 .dex-newsletter__wrapper > * + * {
   margin-top: 2rem;
 }
