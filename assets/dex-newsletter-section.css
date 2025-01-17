@@ -47,6 +47,10 @@
   margin-top: 1.5rem;
 }
 
+.dex-newsletter-form__field-wrapper .field {
+  display:block;
+}
+
 .dex-newsletter__button {
   margin-top: 3rem;
   width: fit-content;
