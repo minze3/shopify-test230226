@@ -48,8 +48,15 @@
 }
 
 .dex-newsletter-form__field-wrapper .field {
-  display:block;
+  display:block; 
 }
+.dex-newsletter-form__field-wrapper .field:before {
+  visibility:hidden;
+}
+.dex-newsletter-form__field-wrapper .field:after {
+  visibility:hidden;
+}
+
 .dex-newsletter-form__field-wrapper .field__button {
   position:relative;
   width: 80%;
