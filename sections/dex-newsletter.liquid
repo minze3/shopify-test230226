@@ -64,6 +64,11 @@
                 <input type="hidden" name="test" value="dex-newsletter">
                 <input type="hidden" name="return_to" value="{{ pages['reserve'].url }}">
                 <!-- <input type="hidden" name="return_to" value="/"> -->
+                {% if form.posted_successfull %}
+ true
+{% else %}
+  false
+{% endif %}
                   <p>2{{form.posted_successfully}}</p>
   <p>3{{form.errors}}</p>
                  <p>4{{section.settings.redirect_url}}</p>
