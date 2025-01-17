@@ -50,14 +50,10 @@
 .dex-newsletter-form__field-wrapper .field {
   display:block;
 }
-.dex-newsletter-form__field-wrapper .field {
-  display:block;
-}
 
 .dex-newsletter__button {
   margin-top: 3rem;
   width: fit-content;
-  position:relative;
 }
 
 .dex-newsletter__email {
