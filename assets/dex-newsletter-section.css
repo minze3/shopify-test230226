@@ -46,9 +46,11 @@
 .dex-newsletter-form__field-wrapper .dex-newsletter-form__message {
   margin-top: 1.5rem;
 }
-
 .dex-newsletter-form__field-wrapper .field {
   display:block; 
+}
+.dex-newsletter-form__field-wrapper .field__input {
+  background-color: #a6a6a6;
 }
 .dex-newsletter-form__field-wrapper .field:before {
   visibility:hidden;
