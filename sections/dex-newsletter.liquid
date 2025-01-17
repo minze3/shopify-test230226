@@ -7,7 +7,7 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
   .dex-newsletter {
-    background-image: url({{ section.settings.image | image_url }});
+    background-image: url({{ section.settings.back-image | image_url }});
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -140,8 +140,8 @@
   "settings": [
         {
       "type": "image_picker",
-      "id": "image",
-      "label": "t:sections.dex-newsletter.settings.image.label"
+      "id": "back-image",
+      "label": "t:sections.dex-newsletter.settings.back-image.label"
     },
     {
       "type": "color_scheme",
@@ -185,11 +185,23 @@
     }
   ],
   "blocks": [
+     {
+      "type": "tip-image",
+      "name": "t:sections.dex-newsletter.blocks.tip-image.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "tip-image",
+          "label": "t:sections.dex-newsletter.settings.tip-image.label"
+        }
+      ]
+    },
     {
       "type": "heading",
       "name": "t:sections.dex-newsletter.blocks.heading.name",
       "limit": 1,
-      "settings": [
+      "settings": [ 
         {
           "type": "inline_richtext",
           "id": "heading",
@@ -265,6 +277,9 @@
     {
       "name": "t:sections.dex-newsletter.presets.name",
       "blocks": [
+                {
+          "type": "tip-image"
+        },
         {
           "type": "heading"
         },
