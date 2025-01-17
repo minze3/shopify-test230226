@@ -65,6 +65,9 @@
                 <input type="hidden" name="return_to" value="{{ pages['reserve'].url }}">
                 <!-- <input type="hidden" name="return_to" value="/"> -->
                 {% for customer in form %}
+                  {% if form.email %}
+                    <script>window.location.href="{{ pages['reserve'].url }}"</script>
+                    {% endif %}
 1{{customer}}
 {% endfor %}
                   <p>2{{form.email}}</p>
