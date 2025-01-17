@@ -48,10 +48,10 @@
 }
 .dex-newsletter-form__field-wrapper .field {
   display:block; 
-  width:90%;
 }
 .dex-newsletter-form__field-wrapper .field__input {
   background-color: #a6a6a6;
+  width:90%;
 }
 .dex-newsletter-form__field-wrapper .field__input:focus {
   box-shadow: none;
