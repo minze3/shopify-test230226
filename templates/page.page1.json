@@ -162,7 +162,7 @@
       ],
       "settings": {
         "back-image": "shopify://shop_images/1.png",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-033b6d59-7473-4e76-a716-7197d1cd81fe",
         "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
@@ -204,7 +204,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-033b6d59-7473-4e76-a716-7197d1cd81fe",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
