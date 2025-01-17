@@ -50,6 +50,9 @@
 .dex-newsletter-form__field-wrapper .field {
   display:block;
 }
+.dex-newsletter-form__field-wrapper .field__button {
+  position:relative;
+}
 
 .dex-newsletter__button {
   margin-top: 3rem;
