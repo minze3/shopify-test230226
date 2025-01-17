@@ -3443,7 +3443,7 @@
         "tip-image": {
           "name": "Tip image",
           "settings": {
-            "tip-image": {
+            "image": {
               "label": "Tip image",
             }
           },
