@@ -28,7 +28,7 @@
         {%- case block.type -%}
           {%- when '@app' -%}
             {% render block %}
-          {%- when 'tip-image' -%}
+          {%- when 'image' -%}
             {{
               block.settings.image
               | image_url: width: 3840
