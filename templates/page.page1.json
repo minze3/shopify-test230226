@@ -161,7 +161,8 @@
         "email_form_dpD9qj"
       ],
       "settings": {
-        "color_scheme": "",
+        "back-image": "shopify://shop_images/1.png",
+        "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
