@@ -16,46 +16,6 @@
         "padding_bottom": 28
       }
     },
-    "dex_newsletter_gixCRx": {
-      "type": "dex-newsletter",
-      "blocks": {
-        "heading_MtGC6b": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph2_bWQDeP": {
-          "type": "paragraph2",
-          "settings": {
-            "paragraph2": "missing translation: \"t:sections.dex-newsletter.blocks.paragraph.settings.heading.default\""
-          }
-        },
-        "paragraph_HP6MiB": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
-          }
-        },
-        "email_form_z4F9aB": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_MtGC6b",
-        "paragraph2_bWQDeP",
-        "paragraph_HP6MiB",
-        "email_form_z4F9aB"
-      ],
-      "settings": {
-        "color_scheme": "scheme-3",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "dex_video_6g7cGf": {
       "type": "dex-video",
       "custom_css": [],
@@ -167,56 +127,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "rich_text_Vfx9LD": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_PkjN4W": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_e7zYRY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_46iNeY": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_PkjN4W",
-        "text_e7zYRY",
-        "button_46iNeY"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-033b6d59-7473-4e76-a716-7197d1cd81fe",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
-    "dex_newsletter_gixCRx",
-    "dex_video_6g7cGf",
-    "image_banner_x9T8kn",
     "dex_newsletter_rkCBNN",
-    "rich_text_Vfx9LD"
+    "dex_video_6g7cGf",
+    "image_banner_x9T8kn"
   ]
 }
