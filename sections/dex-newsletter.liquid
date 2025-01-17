@@ -60,9 +60,9 @@
             </div>
           {%- when 'email_form' -%}
             <div {{ block.shopify_attributes }}>
-              {% form 'customer', return_to: routes.root_url, class: 'dex-newsletter-form' %}
+              {% form 'customer', class: 'dex-newsletter-form' %}
                 <input type="hidden" name="test" value="dex-newsletter">
-                <input type="hidden" name="test2" value="{{ pages['reserve'].url }}">
+                <input type="hidden" name="return_to" value="{{ pages['reserve'].url }}">
                 <input type="hidden" name="contact[tags]" value="dex-newsletter">
                 <div
                   class="dex-newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
