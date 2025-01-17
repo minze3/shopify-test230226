@@ -3443,7 +3443,7 @@
         "tip-image": {
           "name": "标题图片",
           "settings": {
-            "tip-image": {
+            "image": {
               "label": "标题图片",
             }
           },
