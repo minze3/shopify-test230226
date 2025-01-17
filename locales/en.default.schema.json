@@ -3440,6 +3440,14 @@
         }
       },
       "blocks": {
+        "tip-image": {
+          "name": "Tip image",
+          "settings": {
+            "tip-image": {
+              "label": "Tip image",
+            }
+          },
+        },
         "heading": {
           "name": "Heading",
           "settings": {

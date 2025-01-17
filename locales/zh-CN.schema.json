@@ -3440,6 +3440,14 @@
         }
       },
       "blocks": {
+        "tip-image": {
+          "name": "标题图片",
+          "settings": {
+            "tip-image": {
+              "label": "标题图片",
+            }
+          },
+        },
         "heading": {
           "settings": {
             "heading": {
@@ -3457,7 +3465,6 @@
               "default": "<p>成为第一批了解新产品系列和专属优惠的客户。</p>"
             }
           },
-
         },
         "paragraph2": {
           "name": "副标题",
