@@ -1,24 +1,30 @@
 .dex-promotion-main {
 
+    .dex-promotion-box {
+        display: flex;
+        flex-direction: column;
+    }
     .dex-promotion-wrapper {
         padding: calc(2rem / var(--font-body-scale));
         text-align: left;
         max-width: 40rem;
+        display: flex;
 
         img {
             width: 60%;
             display: block;
         }
     }
-
-
     .dex-promotion-form__field-wrapper {
         width: 90%;
+
         .field {
             display: block;
+
             &:before {
                 visibility: hidden;
             }
+
             &::after {
                 visibility: hidden;
             }
@@ -26,6 +32,8 @@
     }
 
     .dex-promotion-form__button {
+        font-size: calc(var(--font-heading-scale) * 1.5rem);
+        ;
         margin-top: 1.2rem;
         width: 100%;
     }

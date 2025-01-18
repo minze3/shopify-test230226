@@ -1,16 +1,31 @@
 .dex-main {
 
-    --color-background: 0,0,0;
-    --color-foreground: 255,255,255;
-    --page-width:120rem;
+    --color-background: 0, 0, 0;
+    --color-foreground: 255, 255, 255;
+    --page-width: 120rem;
     --color-form-input: #a6a6a6;
-    --color-button:126, 217, 87;
+    --color-button: 126, 217, 87;
 
     background-color: rgba(var(--color-background), 1);
-    color:rgba(var(--color-foreground), 1);
+    color: rgba(var(--color-foreground), 1);
 
-    h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    .h0,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5 {
         color: rgb(var(--color-foreground));
+    }
+
+    h2,
+    .h2 {
+        font-size: calc(var(--font-heading-scale) * 2.6rem);
     }
 
     .page-width {
@@ -20,8 +35,8 @@
 
     .field__input {
         background-color: var(--color-form-input);
-        transition:unset;
+        transition: unset;
     }
 
-    
+
 }
