@@ -16,8 +16,10 @@
     --color-badge-border: 255, 255, 255;
     --payment-terms-background-color: rgb(18 18 18); */
 /* } */
-
 .dex-main {
-    /* background-color: rgba(var(--color-background), 1); */
-    background-color: #ff0000;
+    --color-background: 0,0,0;
+}
+.dex-main {
+    background-color: rgba(var(--color-background), 1);
+    /* background-color: #ff0000; */
 }

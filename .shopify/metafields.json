@@ -8,8 +8,70 @@
   "location": [],
   "market": [],
   "order": [],
-  "page": [],
-  "product": [],
+  "page": [
+    {
+      "key": "chanpin",
+      "namespace": "custom",
+      "name": "chanpin",
+      "description": "1111",
+      "type": {
+        "name": "product_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "product": [
+    {
+      "key": "rating",
+      "namespace": "reviews",
+      "name": "产品评分",
+      "description": "客户的平均评分",
+      "type": {
+        "name": "rating",
+        "category": "RATING"
+      }
+    },
+    {
+      "key": "rating_count",
+      "namespace": "reviews",
+      "name": "产品评分数量",
+      "description": "客户评分总数",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "description",
+      "namespace": "products",
+      "name": "description",
+      "description": "产品描述",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "Included",
+      "namespace": "products",
+      "name": "Included",
+      "description": "产品包含",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "specifications",
+      "namespace": "products",
+      "name": "specifications",
+      "description": "产品规格",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
   "variant": [],
   "shop": []
 }
