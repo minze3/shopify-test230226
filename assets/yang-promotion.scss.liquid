@@ -4,12 +4,24 @@
         padding: calc(2rem / var(--font-body-scale));
         text-align: left;
         max-width: 40rem;
+
         img {
-            width:60%;
+            width: 60%;
             display: block;
         }
     }
+
     .dex-promotion-form__field-wrapper {
-        width:90%;
+        width: 90%;
+        .field {
+            display: block;
+            &:before {
+                visibility: hidden;
+            }
+
+            &::after {
+                visibility: hidden;
+            }
+        }
     }
 }
