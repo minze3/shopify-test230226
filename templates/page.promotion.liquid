@@ -1,9 +1,15 @@
 {{ 'yang/base.css' | asset_url | stylesheet_tag }}
-{{ 'yang/promotion.scss.css' | asset_url | stylesheet_tag }}
+{{ 'promotion.scss.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .dex-promotion-header {
+    background-image: url({{ 'yang/promotion-01.png' | asset_url }});
+  }
+{%- endstyle -%}
 
 <div class='dex-main dex-promotion-main'>
-    <section class='dex-promotion__header'>
-        <div class='dex-promotion__wrapper'>
+    <section class='dex-promotion-header'>
+        <div class='dex-promotion-wrapper'>
 1111
         </div>
     </section>
