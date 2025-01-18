@@ -15,6 +15,19 @@
         height: 100%;
     }
 
+    .dex-promotion-wrapper__image {
+        flex: 1;
+
+        img {
+            width: 60%;
+            display: block;
+        }
+    }
+
+    .dex-promotion-wrapper__desc {
+        margin-bottom: 3rem;
+    }
+
     .dex-promotion-wrapper {
         height: 100%;
         padding: calc(2rem / var(--font-body-scale));
@@ -24,16 +37,10 @@
         flex-direction: column;
     }
 
-    .dex-promotion-wrapper__image {
-        flex:1;
-        img {
-            width: 60%;
-            display: block;
-        }
-    }
+
 
     .dex-promotion-form__field-wrapper {
-        margin-left: 12%;
+        margin-left: 10%;
 
         .field {
             display: block;
@@ -52,7 +59,8 @@
         font-size: calc(var(--font-heading-scale) * 1.5rem);
         margin-top: 1.2rem;
         width: 100%;
-        padding:0;
+        padding: 0;
+        min-height: calc(4.5rem + var(--buttons-border-width)* 2);
     }
 
     .dex-promotion-reserve {
