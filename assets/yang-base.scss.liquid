@@ -1,11 +1,15 @@
 .dex-main {
 
     --color-background: 0,0,0;
-    --color: 255,255,255;
+    --color-foreground: 255,255,255;
     --page-width:120rem;
 
     background-color: rgba(var(--color-background), 1);
-    color:rgba(var(--color), 1);
+    color:rgba(var(--color-foreground), 1);
+
+    h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
+        color: rgb(var(--color-foreground));
+    }
 
     .page-width {
         max-width: var(--page-width);
