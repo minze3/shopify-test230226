@@ -24,11 +24,10 @@
             </script>
           {% endif %}
           <input type="hidden" name="contact[tags]" value="dex-newsletter">
-          <div
-            class="dex-newsletter-form__field-wrapper">
+          <div class="dex-promotion-form__field-wrapper">
             <div class="field">
               <input
-                id="dex-promotion-form--email"
+                id="dex-form__email dex-promotion-form__email"
                 type="email"
                 name="contact[email]"
                 class="field__input"
@@ -40,15 +39,14 @@
                 placeholder="Email"
                 required
               >
-              <label class="field__label" for="dex-promotion-form--email">
+              <label class="field__label" for="dex-promotion-form__email">
                 {{ 'newsletter.label' | t }}
               </label>
               <button
                 type="submit"
-                class="dex-newsletter-form__button button"
+                class="dex-promotion-form__button button"
                 name="commit"
                 id="Subscribe"
-                aria-label="{{ 'newsletter.button_label' | t }}"
               >
                 SIGN UP TO RESERVE OR FOLLOW
               </button>
