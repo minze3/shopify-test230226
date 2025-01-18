@@ -3,14 +3,15 @@
 
 {%- style -%}
   .dex-promotion-header {
-    background-image: url({{ 'yang-promotion01.png' | asset_url }});
+    background-image: url({{'yang-promotion01.png'|asset_url}});
   }
 {%- endstyle -%}
 
 <div class="dex-main dex-promotion-main">
   <section class="dex-promotion-header">
     <div class="dex-promotion-wrapper page-width">
-        {{ 'yang-promotion1.png' | asset_url | image_tag }}
+        {{ 'yang-promotion02.png' | asset_url | image_tag }}
+      {% comment %} <img src="{{ 'yang-promotion1.png' | asset_urll }}" width="100%" height="100%"> {% endcomment %}
     </div>
   </section>
 </div>
