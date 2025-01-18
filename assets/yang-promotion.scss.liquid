@@ -11,17 +11,23 @@
         }
     }
 
-    .dex-promotion-form__field-wrapper {
-        width: 90%;
-        .field {
-            display: block;
-            &:before {
-                visibility: hidden;
-            }
+    .dex-promotion-form {
+        &__field-wrapper {
+            width: 90%;
+            .field {
+                display: block;
 
-            &::after {
-                visibility: hidden;
+                &:before {
+                    visibility: hidden;
+                }
+
+                &::after {
+                    visibility: hidden;
+                }
             }
+        }
+        &__button {
+            width: 100%;
         }
     }
 }
