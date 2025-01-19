@@ -69,8 +69,8 @@
     font-size: min(6.2vw, 6.2rem);
     line-height: min(6.2vw, 6.2rem);
     padding:1.2rem 0;
-    // font-size: calc(var(--font-heading-scale) * 6.2rem);
-    // line-height: calc(var(--font-heading-scale) * 10rem);
+    /* // font-size: calc(var(--font-heading-scale) * 6.2rem);
+    // line-height: calc(var(--font-heading-scale) * 10rem); */
     text-align: center;
 }
 
