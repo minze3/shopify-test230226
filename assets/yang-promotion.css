@@ -128,7 +128,6 @@
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(2) video {
     width:94%;
-    height: 20vh;
 }
 
 
@@ -157,10 +156,14 @@
     .dex-promotion-main .dex-promotion-kameta__wrapper-area2-tip{
        display: none;
     }
+    .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) {
+        margin-left: 0;
+    }
     .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(1) .dex-promotion-kameta__wrapper-area2-tip{
         display: block;
     }
     .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(2) video {
+        width: 100%;
     }
 
 }
