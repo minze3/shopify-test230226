@@ -140,6 +140,10 @@
     padding:2rem 0;
 }
 
+.dex-promotion-main .dex-promotion-video-04 {
+    height:40vh;
+}
+
 @media screen and (max-width: 750px) {
     .dex-promotion-main .dex-promotion-wrapper {
         max-width: 100%;
