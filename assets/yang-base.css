@@ -64,6 +64,9 @@
 .dex-main .dex-image-box .mob {
     display: none;
 }
+.dex-main .dex-image-box img {
+    width:100%;
+}
 @media screen and (max-width: var(--mob-width)) {
     .dex-main .dex-image-box .pc {
         display: none;
