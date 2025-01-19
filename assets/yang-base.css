@@ -9,6 +9,9 @@
 
     background-color: rgba(var(--color-background), 1);
     color: rgba(var(--color-foreground), 1);
+    
+}
+.dex-main * {
     border-radius: var(--buttons-radius-outset);
 }
 
