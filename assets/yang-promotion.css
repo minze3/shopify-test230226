@@ -112,6 +112,7 @@
     flex:1;
     display: flex;
     flex-direction: column;
+    margin-left: 2rem;
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(1)  {
     display: flex;
@@ -125,8 +126,7 @@
     flex:1;
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(2) video {
-    width:88%;
-    left:6%;
+    width:94%;
 }
 
 
@@ -159,8 +159,6 @@
         display: block;
     }
     .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(2) video {
-        width:100%;
-        left:0;
     }
 
 }
