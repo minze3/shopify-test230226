@@ -1,7 +1,7 @@
 .dex-promotion-main .dex-promotion-header {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 100vh;
     font-weight: 600;
 }
 
@@ -83,5 +83,8 @@
     }
     .dex-promotion-main .dex-promotion-form__field-wrapper {
         margin-left: 0;
+    }
+    .dex-promotion-main .dex-promotion-header {
+        height: 90vh;
     }
 }
