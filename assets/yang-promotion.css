@@ -99,9 +99,10 @@
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(1) {
     font-size: 4.5vw;
-    padding: 4rem 8rem;
+    padding: 0 8rem;
     min-width: 40%;
     text-align: center;
+    padding-top: 30%;
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) {
     flex:1;
