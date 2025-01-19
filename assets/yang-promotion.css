@@ -84,6 +84,17 @@
     border: 0.2rem solid #fff;
     padding:1.2rem
 }
+.dex-promotion-main .dex-promotion-kameta__wrapper-video {
+    position: relative;
+    height:50vh;
+}
+.dex-promotion-main .dex-promotion-kameta__wrapper-video video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    object-fit: cover;
+}
 
 
 @media screen and (max-width: 750px) {
