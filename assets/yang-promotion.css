@@ -130,6 +130,10 @@
     width:94%;
 }
 
+.dex-promotion-main .dex-promotion-image-04 {
+    background-color: #fff;
+}
+
 @media screen and (max-width: 750px) {
     .dex-promotion-main .dex-promotion-wrapper {
         max-width: 100%;
