@@ -7,9 +7,21 @@
   .dex-promotion-signup {
     background-image: url({{'yang-promotion-pc-01.png'|asset_url}});
   }
+  .dex-promotion-image .pc {
+    display:block;
+  }
+  .dex-promotion-image .mob {
+    display:none
+  }
   @media screen and (max-width: 750px) {
     .dex-promotion-signup {
         background-image: url({{'yang-promotion-mobile-01.png'|asset_url}});
+    }
+    .dex-promotion-image .pc {
+      display:none;
+    }
+    .dex-promotion-image .mob {
+      display:block;
     }
   }
 {%- endstyle -%}
@@ -104,5 +116,13 @@
             </div>
         </div>
     </div>
-    </section>
+  </section>
+  <section class="dex-promotion-image">
+    <div class="pc">
+      <img src="{{ 'yang-promotion-pc-02.png' | asset_url }}">
+    </div>
+    <div class="mobile">
+      <img src="{{ 'yang-promotion-mob-02.png' | asset_url }}">
+    </div>
+  </section>
 </div>
