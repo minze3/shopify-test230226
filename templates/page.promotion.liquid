@@ -69,7 +69,16 @@
   <section class="dex-promotion-kameta">
     <div class="dex-promotion-kameta__box page-width">
         <div class="dex-promotion-kameta__wrapper">
-            <div>123123123</div>
+            <div>
+            {{
+                'yang-promotion-pc-03.mp4'|asset_url
+                | video_tag:
+                  image_size: '1100x',
+                  autoplay: true,
+                  loop: true,
+                  muted: true,
+              }}
+            </div>
         </div>
     </div>
     </section>
