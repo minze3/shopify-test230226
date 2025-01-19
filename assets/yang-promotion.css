@@ -151,5 +151,9 @@
     .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(1) .dex-promotion-kameta__wrapper-area2-tip{
         display: block;
     }
+    .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(2) video {
+        width:100%;
+        left:0;
+    }
 
 }
