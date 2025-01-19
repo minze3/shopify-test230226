@@ -80,12 +80,13 @@
     }
     .dex-promotion-main .dex-promotion-wrapper__desc {
         width:80%;
+        margin-bottom: 1.2rem;
     }
     .dex-promotion-main .dex-promotion-form__field-wrapper {
         margin-left: 0;
     }
     .dex-promotion-main .dex-promotion-header {
         /* padding-bottom:env(safe-area-inset-bottom,10vh) */
-        height: 80vh;
+        height: 85vh;
     }
 }
