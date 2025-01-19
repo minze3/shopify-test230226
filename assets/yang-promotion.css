@@ -148,6 +148,10 @@
     height:50vh;
 }
 
+.dex-promotion-main .dex-promotion-image-05 .dex-image-box {
+    background-image: var('yang-promotion-pc-05-0.png');
+}
+
 @media screen and (max-width: 750px) {
     .dex-promotion-main .dex-promotion-wrapper {
         max-width: 100%;
