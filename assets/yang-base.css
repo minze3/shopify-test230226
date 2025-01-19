@@ -1,13 +1,15 @@
 .dex-main {
 
-    --color-background: 255, 0, 0;
+    --color-background: 0, 0, 0;
     --color-foreground: 255, 255, 255;
     --page-width: 120rem;
     --color-form-input: 166, 166, 166;
     --color-button: 126, 217, 87;
+    --buttons-radius-outset:6px;
 
     background-color: rgba(var(--color-background), 1);
     color: rgba(var(--color-foreground), 1);
+    border-radius: var(--buttons-radius-outset);
 }
 
 .dex-main h1,
