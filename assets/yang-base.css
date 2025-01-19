@@ -67,7 +67,8 @@
 .dex-main .dex-image-box img {
     width:100%;
 }
-@media screen and (max-width: var(--mob-width)) {
+
+@media screen and (max-width: 750px) {
     .dex-main .dex-image-box .pc {
         display: none;
     }
