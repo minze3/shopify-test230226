@@ -19,6 +19,7 @@
 .dex-promotion-main .dex-promotion-wrapper__image {
     flex: 1;
 }
+
 .dex-promotion-main .dex-promotion-wrapper__image img {
     width: 60%;
     display: block;
@@ -48,9 +49,11 @@
 .dex-promotion-main .dex-promotion-form__field-wrapper .field {
     display: block;
 }
+
 .dex-promotion-main .dex-promotion-form__field-wrapper .field::before {
     visibility: hidden;
 }
+
 .dex-promotion-main .dex-promotion-form__field-wrapper .field::after {
     visibility: hidden;
 }
@@ -68,38 +71,52 @@
     background-color: #ff3131;
     font-size: min(6.2vw, 6.2rem);
     line-height: min(6.2vw, 6.2rem);
-    padding:1.2rem 0;
+    padding: 1.2rem 0;
     /* // font-size: calc(var(--font-heading-scale) * 6.2rem);
     // line-height: calc(var(--font-heading-scale) * 10rem); */
     text-align: center;
 }
 
-.dex-promotion-main .dex-promotion-kameta {
+.dex-promotion-main .dex-promotion-kameta {}
 
-}
 .dex-promotion-main .dex-promotion-kameta__box {
-    padding:1.2rem
+    padding: 1.2rem
 }
+
 .dex-promotion-main .dex-promotion-kameta__wrapper {
     border: 0.2rem solid #fff;
-    padding:1.2rem
+    padding: 1.2rem
 }
-.dex-promotion-main .dex-promotion-kameta__wrapper-video {
+
+.dex-promotion-main .dex-promotion-kameta__wrapper-area1 {
     position: relative;
-    height:50vh;
+    height: 50vh;
+}
+
+.dex-promotion-main .dex-promotion-kameta__wrapper-area2 {
+    display: flex;
+}
+.dex-promotion-main .dex-promotion-kameta__wrapper-area2 div:nth-child(1) {
+    max-width: 50%;
+}
+.dex-promotion-main .dex-promotion-kameta__wrapper-area2 div:nth-child(2) {
+    min-width: 50%;
 }
 
 @media screen and (max-width: 750px) {
     .dex-promotion-main .dex-promotion-wrapper {
-        max-width:100%;
+        max-width: 100%;
     }
+
     .dex-promotion-main .dex-promotion-wrapper__desc {
-        width:80%;
+        width: 80%;
         margin-bottom: 1.2rem;
     }
+
     .dex-promotion-main .dex-promotion-form__field-wrapper {
         margin-left: 0;
     }
+
     .dex-promotion-main .dex-promotion-header {
         /* padding-bottom:env(safe-area-inset-bottom,10vh) */
         height: 85vh;
