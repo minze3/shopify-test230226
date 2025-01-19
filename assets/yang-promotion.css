@@ -99,9 +99,10 @@
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2-tip{
     font-size: 4.5vw;
-    padding: 6rem 6rem 0;
+    /* padding: 6rem 6rem 0; */
     min-width: 40%;
     text-align: center;
+    padding-top:min(6vh,6rem)
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) {
     flex:1;
@@ -109,7 +110,7 @@
     flex-direction: column;
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(1)  {
-    position: relative;
+    display: flex;
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(1) .dex-promotion-kameta__wrapper-area2-tip{
     display: none;
@@ -142,4 +143,12 @@
         /* padding-bottom:env(safe-area-inset-bottom,10vh) */
         height: 85vh;
     }
+
+    .dex-promotion-main .dex-promotion-kameta__wrapper-area2-tip{
+       display: none;
+    }
+    .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(1) .dex-promotion-kameta__wrapper-area2-tip{
+        display: block;
+    }
+
 }
