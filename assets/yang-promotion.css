@@ -85,6 +85,7 @@
         margin-left: 0;
     }
     .dex-promotion-main .dex-promotion-header {
-        height: 80vh;
+        padding-bottom:evn(safe-area-inset-bottom,10vh)
+        /* height: 80vh; */
     }
 }
