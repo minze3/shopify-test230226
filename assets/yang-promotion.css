@@ -149,7 +149,7 @@
 }
 
 .dex-promotion-main .dex-promotion-image-05 .dex-image-box {
-    background-image: var('yang-promotion-pc-05-0.png');
+    background-image: url('yang-promotion-pc-05-0.png');
 }
 
 @media screen and (max-width: 750px) {
