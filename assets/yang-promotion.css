@@ -103,10 +103,12 @@
     text-align: center;
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) {
-    flex:1
+    flex:1;
+    display: flex;
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(2) {
     position: relative;
+    flex:1
 }
 
 
