@@ -74,6 +74,18 @@
     text-align: center;
 }
 
+.dex-promotion-main .dex-promotion-kameta {
+
+}
+.dex-promotion-main .dex-promotion-kameta__box {
+    padding:1.2rem
+}
+.dex-promotion-main .dex-promotion-kameta__wrapper {
+    border: 1px  solid  #fff;
+    padding:1.2rem
+}
+
+
 @media screen and (max-width: 750px) {
     .dex-promotion-main .dex-promotion-wrapper {
         max-width:100%;
