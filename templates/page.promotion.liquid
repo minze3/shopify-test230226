@@ -70,14 +70,14 @@
     <div class="dex-promotion-kameta__box page-width">
         <div class="dex-promotion-kameta__wrapper">
             <div>
-            {{
-                'yang-promotion-pc-03.mp4'|asset_url
-                | video_tag:
-                  image_size: '1100x',
-                  autoplay: true,
-                  loop: true,
-                  muted: true,
-              }}
+                <video 
+                    playsinline="playsinline"
+                    autoplay="autoplay"
+                    loop="loop"
+                    muted="muted"  
+                    preload="metadata">
+                    <source src="{{'yang-promotion-pc-03.MP4'|asset_url}}" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>
