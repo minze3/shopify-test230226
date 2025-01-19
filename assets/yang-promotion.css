@@ -97,10 +97,13 @@
     display: flex;
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 div:nth-child(1) {
-    max-width: 50%;
+    font-size: 4.5vw;
+    padding: 4rem 8rem;
+    min-width: 40%;
+    text-align: center;
 }
 .dex-promotion-main .dex-promotion-kameta__wrapper-area2 div:nth-child(2) {
-    min-width: 50%;
+    flex:1
 }
 
 @media screen and (max-width: 750px) {
