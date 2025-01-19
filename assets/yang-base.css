@@ -6,6 +6,7 @@
     --color-form-input: 166, 166, 166;
     --color-button: 126, 217, 87;
     --buttons-radius-outset:6px;
+    --mob-width:750px;
 
     background-color: rgba(var(--color-background), 1);
     color: rgba(var(--color-foreground), 1);
@@ -55,4 +56,19 @@
     width: 100%;
     left: 0;
     object-fit: cover;
+}
+
+.dex-main .dex-image-box .pc {
+    display: block;
+}
+.dex-main .dex-image-box .mob {
+    display: none;
+}
+@media screen and (max-width: var(--mob-width)) {
+    .dex-main .dex-image-box .pc {
+        display: none;
+    }
+    .dex-main .dex-image-box .mob {
+        display: block;
+    }
 }

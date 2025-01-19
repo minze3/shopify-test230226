@@ -130,7 +130,7 @@
     width:94%;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: var(--mob-width)) {
     .dex-promotion-main .dex-promotion-wrapper {
         max-width: 100%;
     }
