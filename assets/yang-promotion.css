@@ -140,8 +140,8 @@
     padding:2rem 0;
 }
 
-.dex-promotion-main .dex-promotion-video-04 {
-    height:40vh;
+.dex-promotion-main .dex-promotion-video-04 .dex-video-box {
+    height:50vh;
 }
 
 @media screen and (max-width: 750px) {
@@ -180,6 +180,10 @@
     }
     .dex-promotion-main .dex-promotion-kameta__wrapper-area2 > div:nth-child(2) > div:nth-child(2) video {
         width: 100%;
+    }
+
+    .dex-promotion-main .dex-promotion-video-04 .dex-video-box {
+        height:30vh;
     }
 
 }
