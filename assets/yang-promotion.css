@@ -1,7 +1,7 @@
 .dex-promotion-main .dex-promotion-header {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: min(80rem,100vh);
     font-weight: 600;
 }
 .dex-promotion-main .dex-full-header-box .dex-box {
