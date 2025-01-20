@@ -141,7 +141,24 @@
     <div class="dex-image-box page-width">
       <div class="pc">
         <div><img src="{{ 'yang-promotion-pc-05-1.png' | asset_url }}"></div>
-        <div><img src="{{ 'yang-promotion-pc-05-2a.png' | asset_url }}"></div>
+        <div class="dex-promotion-image-05__box">
+          <img src="{{ 'yang-promotion-pc-05-2a.png' | asset_url }}">
+          <div class="dex-promotion-image-05__flex">
+            <div>
+              <video 
+                playsinline="playsinline"
+                autoplay="autoplay"
+                loop="loop"
+                muted="muted"  
+                preload="metadata">
+                <source src="{{'yang-promotion-04.mp4'|asset_url}}" type="video/mp4">
+              </video>
+            </div>
+            <div>
+              <img src="{{ 'yang-promotion-pc-05-2b.png' | asset_url }}">
+            </div>
+          </div>
+        </div>
         <div><img src="{{ 'yang-promotion-pc-05-3.png' | asset_url }}"></div>
       </div>
       <div class="mob">
