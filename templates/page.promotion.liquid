@@ -185,7 +185,7 @@
         assign index = num
       endif
     -%}
-    <section class="dex-promotion-image-{{ num }}">
+    <section class="dex-promotion-image-{{ index }}">
       <div class="dex-image-box dex-box page-width">
         <div class="pc">
           <img src="{{ 'yang-promotion-pc-'| append:index | append:'.png' | asset_url }}">
