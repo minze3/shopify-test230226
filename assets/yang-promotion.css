@@ -137,10 +137,10 @@
     background-color: #fff;
 }
 .dex-promotion-main .dex-promotion-image-04 .pc {
-    padding:0 2rem;
+    /* padding:0 2rem; */
 }
 .dex-promotion-main .dex-promotion-image-04 .mob {
-    padding:2rem 0;
+    /* padding:2rem 0; */
 }
 
 /* .dex-promotion-main .dex-promotion-video-04 {
