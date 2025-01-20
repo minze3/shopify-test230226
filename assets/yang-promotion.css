@@ -77,6 +77,9 @@
     /* padding: 1.2rem 0; */
     text-align: center;
 }
+.dex-promotion-main .dex-full-reserve-box .dex-box {
+    padding:0;
+}
 
 .dex-promotion-main .dex-promotion-kameta {}
 
