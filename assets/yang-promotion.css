@@ -130,7 +130,10 @@
     width:94%;
 }
 
-.dex-promotion-main .dex-promotion-image-04 {
+.dex-promotion-main .dex-promotion-image-04,
+.dex-promotion-main .dex-promotion-image-06,
+.dex-promotion-main .dex-promotion-image-07,
+.dex-promotion-main .dex-promotion-image-08 {
     background-color: #fff;
 }
 .dex-promotion-main .dex-promotion-image-04 .pc {
