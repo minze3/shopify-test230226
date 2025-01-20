@@ -9,11 +9,13 @@
     background-image: url('yang-promotion-pc-01.png');
 }
 
-.dex-promotion-main .dex-full-header-box {
-    flex: 1;
+.dex-promotion-main .dex-full-header-box, .dex-promotion-main .dex-full-header-box  {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.dex-promotion-main .dex-full-header-box  {
+    flex: 1;
 }
 .dex-promotion-main .dex-full-header-box .dex-box {
     height:100%
