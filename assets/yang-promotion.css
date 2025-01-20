@@ -156,6 +156,9 @@
 }
 .dex-promotion-main .dex-promotion-image-05__flex {
     display: flex;
+    position: absolute;
+    top: 0;
+    height: 100%;
 }
 
 .dex-promotion-main .dex-promotion-image-05__flex div:nth-child(1) {
