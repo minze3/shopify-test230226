@@ -161,13 +161,16 @@
     position: relative;
 }
 .dex-promotion-main .dex-promotion-image-05 .pc {
-    padding-bottom: 3.5rem;
+    padding-bottom: 3.6rem;
 }
 .dex-promotion-main .dex-promotion-image-05 .pc > div {
-    margin-top: 3.5rem;
+    margin-top: 3.6rem;
+}
+.dex-promotion-main .dex-promotion-image-05 .mob {
+    padding-bottom: 2.4rem;
 }
 .dex-promotion-main .dex-promotion-image-05 .mob > div {
-    margin-top: 3.5rem;
+    margin-top: 2.4rem;
 }
 .dex-promotion-main .dex-promotion-image-05__flex {
     display: flex;
