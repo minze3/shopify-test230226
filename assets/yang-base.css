@@ -61,7 +61,9 @@
 .dex-main .dex-box {
     padding: 1.5rem 0;
 }
-
+.dex-main .dex-image-box img {
+    display: block;
+}
 .dex-main .dex-image-box .pc {
     display: block;
 }
