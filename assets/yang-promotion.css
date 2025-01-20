@@ -71,14 +71,15 @@
 }
 
 .dex-promotion-main .dex-full-reserve-box {
+
+}
+.dex-promotion-main .dex-full-reserve-box .dex-box {
+    padding:0;
     background-color: #ff3131;
     font-size: min(6.2vw, 6.2rem);
     line-height: min(6.2vw, 6.2rem);
     /* padding: 1.2rem 0; */
     text-align: center;
-}
-.dex-promotion-main .dex-full-reserve-box .dex-box {
-    padding:0;
 }
 
 .dex-promotion-main .dex-promotion-kameta {}
