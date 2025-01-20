@@ -64,8 +64,13 @@
         </div>
       </div>
     </div>
-    <div class="dex-promotion-reserve">Reserve $5=$50 Value Pack</div>
+    {% comment %} <div class="dex-promotion-reserve">Reserve $5=$50 Value Pack</div> {% endcomment %}
   </section>
+  <section class="dex-promotion-reserve">
+    <div class="dex-reserve-box dex-box page-width">
+      Reserve $5=$50 Value Pack
+    </div>
+  </section> 
   <section class="dex-promotion-kameta">
     <div class="dex-promotion-kameta__box page-width">
         <div class="dex-promotion-kameta__wrapper radius">
@@ -106,7 +111,7 @@
     </div>
   </section>
   <section class="dex-promotion-image-02">
-    <div class="dex-image-box page-width">
+    <div class="dex-image-box dex-box page-width">
       <div class="pc">
         <img src="{{ 'yang-promotion-pc-02.png' | asset_url }}">
       </div>
@@ -116,7 +121,7 @@
     </div>
   </section>
   <section class="dex-promotion-video-04">
-    <div class="dex-video-box page-width">
+    <div class="dex-video-box dex-box page-width">
       <video 
         playsinline="playsinline"
         autoplay="autoplay"
@@ -128,7 +133,7 @@
     </div>
   </section>
   <section class="dex-promotion-image-04">
-    <div class="dex-image-box page-width">
+    <div class="dex-image-box  dex-box  page-width">
       <div class="pc">
         <img src="{{ 'yang-promotion-pc-04.png' | asset_url }}">
       </div>
@@ -167,9 +172,9 @@
       </div>
     </div>
   </section>
-  {% for num  in (6..9)%}
+  {% for num  in (6..8)%}
     <section class="dex-promotion-image-0{{ num }}">
-      <div class="dex-image-box page-width">
+      <div class="dex-image-box dex-box page-width">
         <div class="pc">
           <img src="{{ 'yang-promotion-pc-0'| append:num | append:'.png' | asset_url }}">
         </div>
