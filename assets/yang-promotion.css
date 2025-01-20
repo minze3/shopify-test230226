@@ -4,12 +4,10 @@
     height: 100vh;
     font-weight: 600;
 }
-.dex-promotion-main .dex-full-header-box {
+.dex-promotion-main .dex-full-header-box .dex-box {
     background-image: url('yang-promotion-pc-01.png');
-}
-.dex-promotion-main .dex-full-header-box  {
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: right center;
     background-repeat: no-repeat;
 }
 .dex-promotion-main .dex-full-header-box  {
@@ -20,8 +18,6 @@
 }
 .dex-promotion-main .dex-full-footer-box .dex-box {
     background-image: url('yang-promotion-pc-12.png');
-}
-.dex-promotion-main .dex-full-footer-box .dex-box  {
     background-size: auto 200%;
     background-position: right center;
     background-repeat: no-repeat;
