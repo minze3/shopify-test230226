@@ -167,14 +167,17 @@
       </div>
     </div>
   </section>
-  <section class="dex-promotion-image-06">
-    <div class="dex-image-box page-width">
-      <div class="pc">
-        <img src="{{ 'yang-promotion-pc-06.png' | asset_url }}">
+  {% for num  in (6..8)%}
+    <section class="dex-promotion-image-0{{ num }}">
+      <div class="dex-image-box page-width">
+        <div class="pc">
+          <img src="{{ 'yang-promotion-pc-0'| append:num | append:'.png' | asset_url }}">
+        </div>
+        <div class="mob">
+          <img src="{{ 'yang-promotion-mob-0'| append:num | append:'.png' | asset_url }}">
+        </div>
       </div>
-      <div class="mob">
-        <img src="{{ 'yang-promotion-mob-06.png' | asset_url }}">
-      </div>
-    </div>
-  </section>
+    </section>
+  {% endfor %}
+
 </div>
