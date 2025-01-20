@@ -36,7 +36,7 @@
 
 .dex-main h2,
 .dex-main .h2 {
-    font-size: calc(var(--font-heading-scale) * 2.6rem);
+    font-size: calc(var(--font-heading-scale) * 3.2rem);
 }
 
 .dex-main .page-width {
