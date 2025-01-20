@@ -228,6 +228,11 @@
         width: 100%;
     }
 
+    .dex-promotion-main .dex-promotion-image-05__flex {
+        width:92%;
+        left:4%;
+    }
+
     .dex-promotion-main .dex-promotion-video-04 .dex-video-box {
         height:30vh;
     }
