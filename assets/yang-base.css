@@ -58,6 +58,10 @@
     object-fit: cover;
 }
 
+.dex-main .section {
+    margin-top: 3rem;
+}
+
 .dex-main .dex-image-box .pc {
     display: block;
 }
