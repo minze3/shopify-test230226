@@ -16,7 +16,8 @@
 
 <div class="dex-main dex-promotion-main">
   <section class="dex-promotion-header">
-      <div class="dex-header-box page-width">
+    <div class="dex-full-box">
+      <div class="dex-box page-width">
         <div class="dex-promotion-wrapper">
           <div class="dex-promotion-wrapper__image">
             <img src="{{ 'yang-promotion-01.png' | asset_url }}">
@@ -63,51 +64,53 @@
             </div>
           {% endform %}
         </div>
+      </div>
     </div>
-    {% comment %} <div class="dex-promotion-reserve">Reserve $5=$50 Value Pack</div> {% endcomment %}
+    <div class="dex-full-box">
+      <div class="dex-box page-width">Reserve $5=$50 Value Pack</div>
+    </div>
   </section>
   <section class="dex-promotion-reserve">
-    <div class="dex-reserve-box dex-box page-width">
-      Reserve $5=$50 Value Pack
-    </div>
-  </section> 
+    <div class="dex-reserve-box dex-box page-width">Reserve $5=$50 Value Pack</div>
+  </section>
   <section class="dex-promotion-kameta">
     <div class="dex-promotion-kameta__box page-width">
-        <div class="dex-promotion-kameta__wrapper radius">
-            <div class="dex-promotion-kameta__wrapper-area1">
-                <video 
-                    playsinline="playsinline"
-                    autoplay="autoplay"
-                    loop="loop"
-                    muted="muted"  
-                    preload="metadata">
-                    <source src="{{'yang-promotion-02.mp4'|asset_url}}" type="video/mp4">
-                </video>
-            </div>
-            <div class="dex-promotion-kameta__wrapper-area2">
-                <div class="dex-promotion-kameta__wrapper-area2-tip">
-                    QVS SYSTEM
-                </div>
-                <div>
-                    <div>
-                        <div class="dex-promotion-kameta__wrapper-area2-tip">
-                            QVS SYSTEM
-                        </div>
-                        <div><span>KAMETA</span> is an innovative folding knife that redefines personalization, featuring the QVS (Quick Versatility System) for effortless scale swaps in just 30 seconds.</div>
-                    </div>
-                    <div>
-                        <video 
-                            playsinline="playsinline"
-                            autoplay="autoplay"
-                            loop="loop"
-                            muted="muted"  
-                            preload="metadata">
-                            <source src="{{'yang-promotion-03.mp4'|asset_url}}" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
+      <div class="dex-promotion-kameta__wrapper radius">
+        <div class="dex-promotion-kameta__wrapper-area1">
+          <video
+            playsinline="playsinline"
+            autoplay="autoplay"
+            loop="loop"
+            muted="muted"
+            preload="metadata"
+          >
+            <source src="{{'yang-promotion-02.mp4'|asset_url}}" type="video/mp4">
+          </video>
         </div>
+        <div class="dex-promotion-kameta__wrapper-area2">
+          <div class="dex-promotion-kameta__wrapper-area2-tip">QVS SYSTEM</div>
+          <div>
+            <div>
+              <div class="dex-promotion-kameta__wrapper-area2-tip">QVS SYSTEM</div>
+              <div>
+                <span>KAMETA</span> is an innovative folding knife that redefines personalization, featuring the QVS
+                (Quick Versatility System) for effortless scale swaps in just 30 seconds.
+              </div>
+            </div>
+            <div>
+              <video
+                playsinline="playsinline"
+                autoplay="autoplay"
+                loop="loop"
+                muted="muted"
+                preload="metadata"
+              >
+                <source src="{{'yang-promotion-03.mp4'|asset_url}}" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section class="dex-promotion-image-02">
@@ -122,14 +125,15 @@
   </section>
   <section class="dex-promotion-video-04">
     <div class="dex-video-box dex-box page-width">
-      <video 
+      <video
         playsinline="playsinline"
         autoplay="autoplay"
         loop="loop"
-        muted="muted"  
-        preload="metadata">
+        muted="muted"
+        preload="metadata"
+      >
         <source src="{{'yang-promotion-04.mp4'|asset_url}}" type="video/mp4">
-    </video>
+      </video>
     </div>
   </section>
   <section class="dex-promotion-image-04">
@@ -150,12 +154,13 @@
           <img src="{{ 'yang-promotion-pc-05-2a.png' | asset_url }}">
           <div class="dex-promotion-image-05__flex">
             <div>
-              <video 
+              <video
                 playsinline="playsinline"
                 autoplay="autoplay"
                 loop="loop"
-                muted="muted"  
-                preload="metadata">
+                muted="muted"
+                preload="metadata"
+              >
                 <source src="{{'yang-promotion-05.mp4'|asset_url}}" type="video/mp4">
               </video>
             </div>
@@ -172,7 +177,7 @@
       </div>
     </div>
   </section>
-  {% for num  in (6..8)%}
+  {% for num in (6..8) %}
     <section class="dex-promotion-image-0{{ num }}">
       <div class="dex-image-box dex-box page-width">
         <div class="pc">
@@ -184,5 +189,4 @@
       </div>
     </section>
   {% endfor %}
-
 </div>
