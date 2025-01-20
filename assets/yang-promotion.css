@@ -87,6 +87,9 @@
     min-height: calc(4.5rem + var(--buttons-border-width)* 2);
 }
 
+.dex-promotion-main .dex-full-reserve-box  {
+    padding-top:1.2rem;
+}
 .dex-promotion-main .dex-full-reserve-box .dex-box {
     padding:0;
     background-color: #ff3131;
@@ -216,6 +219,9 @@
     }
     .dex-promotion-main .dex-full-footer-box {
         background-image: url('yang-promotion-mob-12.png');
+    }
+    .dex-promotion-main .dex-full-reserve-box  {
+        padding-top:0;
     }
     .dex-promotion-main .dex-promotion-wrapper {
         max-width: 100%;
