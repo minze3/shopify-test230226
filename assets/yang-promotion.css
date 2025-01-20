@@ -154,6 +154,9 @@
 .dex-promotion-main .dex-promotion-image-05__box {
     position: relative;
 }
+.dex-promotion-main .dex-promotion-image-05 .pc > div {
+    margin: 2rem 0;
+}
 .dex-promotion-main .dex-promotion-image-05__flex {
     display: flex;
     position: absolute;
