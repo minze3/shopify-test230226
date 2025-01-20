@@ -152,7 +152,9 @@
 }
 
 .dex-promotion-main .dex-promotion-image-05 .dex-image-box {
-    background-image: url('yang-promotion-pc-05-0.png');
+    background-image: url('yang-promotion-06.png');
+    background-size: 100% auto;
+    background-repeat: repeat-y;
 }
 .dex-promotion-main .dex-promotion-image-05__box {
     position: relative;
