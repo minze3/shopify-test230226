@@ -194,7 +194,9 @@
         margin-bottom: 1.2rem;
         font-size: calc(var(--font-heading-scale)* 2.4rem);
     }
-
+    .dex-promotion-main .dex-promotion-form {
+        margin-bottom: 0;
+    }
     .dex-promotion-main .dex-promotion-form__field-wrapper {
         margin-left: 0;
     }
