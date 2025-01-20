@@ -217,8 +217,13 @@
     .dex-promotion-main .dex-full-header-box {
         background-image: url('yang-promotion-mob-01.png');
     }
-    .dex-promotion-main .dex-full-footer-box {
+    .dex-promotion-main .dex-full-footer-box .dex .box {
         background-image: url('yang-promotion-mob-12.png');
+    }
+    .dex-promotion-main .dex-full-footer-box .dex-box  {
+        background-size: contain;
+        background-position: center -10%;
+        background-repeat: no-repeat;
     }
     .dex-promotion-main .dex-full-reserve-box  {
         padding-top:0;
