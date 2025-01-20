@@ -246,8 +246,11 @@
         height:30vh;
     }
 
-    .dex-promotion-main .dex-promotion-image-09 {
-        margin-bottom: 1.5rem;
+    .dex-promotion-main .dex-promotion-image-08 .dex-box {
+        padding-bottom:0;
+    }
+    .dex-promotion-main .dex-promotion-image-10 .dex-box {
+        padding-top:3rem;
     }
 
 }
