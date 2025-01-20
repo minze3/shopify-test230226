@@ -46,7 +46,7 @@
 }
 
 .dex-main .field__input {
-    background-color: rgba(var(--color-form-input), 1);
+    background-color: rgba(var(--color-form-input), .6);
     transition: unset;
 }
 
