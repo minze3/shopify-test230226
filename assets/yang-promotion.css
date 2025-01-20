@@ -5,7 +5,7 @@
     font-weight: 600;
 }
 
-.dex-promotion-main .dex-full-box-header {
+.dex-promotion-main .dex-full-header-box {
     flex: 1;
     background-size: cover;
     background-position: center;
@@ -67,13 +67,11 @@
     min-height: calc(4.5rem + var(--buttons-border-width)* 2);
 }
 
-.dex-promotion-main .dex-promotion-reserve {
+.dex-promotion-main .dex-full-reserve-box {
     background-color: #ff3131;
     font-size: min(6.2vw, 6.2rem);
     line-height: min(6.2vw, 6.2rem);
     padding: 1.2rem 0;
-    /* // font-size: calc(var(--font-heading-scale) * 6.2rem);
-    // line-height: calc(var(--font-heading-scale) * 10rem); */
     text-align: center;
 }
 
