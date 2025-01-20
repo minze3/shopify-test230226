@@ -184,7 +184,9 @@
     .dex-promotion-main .dex-promotion-wrapper {
         max-width: 100%;
     }
-
+    .dex-promotion-main .dex-promotion-wrapper__image img {
+        width:60%;
+    }
     .dex-promotion-main .dex-promotion-wrapper__desc {
         width: 80%;
         margin-bottom: 1.2rem;
