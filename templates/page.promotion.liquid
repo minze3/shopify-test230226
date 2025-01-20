@@ -3,7 +3,7 @@
 {{ 'yang-promotion.css' | asset_url | stylesheet_tag }}
 {% comment %} {{ 'yang-promotion.scss.css' | asset_url | stylesheet_tag }} {% endcomment %}
 
-{%- style -%}
+{% comment %} {%- style -%}
   .dex-full-header-box {
     background-image: url({{'yang-promotion-pc-01.png'|asset_url}});
   }
@@ -12,7 +12,7 @@
         background-image: url({{'yang-promotion-mob-01.png'|asset_url}});
     }
   }
-{%- endstyle -%}
+{%- endstyle -%} {% endcomment %}
 
 <div class="dex-main dex-promotion-main">
   <section class="dex-promotion-footer">

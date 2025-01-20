@@ -5,6 +5,10 @@
     font-weight: 600;
 }
 
+.dex-promotion-main .dex-full-header-box, .dex-promotion-main .dex-full-footer-box {
+    background-image: url('yang-promotion-pc-01.png');
+}
+
 .dex-promotion-main .dex-full-header-box {
     flex: 1;
     background-size: cover;
@@ -193,6 +197,9 @@
 }
 
 @media screen and (max-width: 750px) {
+    .dex-promotion-main .dex-full-header-box, .dex-promotion-main .dex-full-footer-box {
+        background-image: url('yang-promotion-mob-01.png');
+    }
     .dex-promotion-main .dex-promotion-wrapper {
         max-width: 100%;
         padding-top:0;
