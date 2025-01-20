@@ -210,8 +210,10 @@
 }
 
 @media screen and (max-width: 750px) {
-    .dex-promotion-main .dex-full-header-box {
+    .dex-promotion-main .dex-full-header-box .dex-box {
         background-image: url('yang-promotion-mob-01.png');
+        background-size: cover;
+        background-position: center;
     }
     .dex-promotion-main .dex-full-footer-box .dex-box {
         background-image: url('yang-promotion-mob-12.png');
