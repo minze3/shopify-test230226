@@ -188,6 +188,9 @@
 .dex-promotion-main .dex-promotion-image-09 {
     background-color: #f00;
 }
+.dex-promotion-main .dex-promotion-image-10 .dex-box {
+    padding:1.5rem;
+}
 
 @media screen and (max-width: 750px) {
     .dex-promotion-main .dex-promotion-wrapper {
