@@ -166,6 +166,9 @@
 .dex-promotion-main .dex-promotion-image-05 .pc > div {
     margin-top: 3.5rem;
 }
+.dex-promotion-main .dex-promotion-image-05 .mob > div {
+    margin-top: 3.5rem;
+}
 .dex-promotion-main .dex-promotion-image-05__flex {
     display: flex;
     position: absolute;
