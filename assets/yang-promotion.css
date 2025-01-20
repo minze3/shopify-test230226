@@ -155,6 +155,7 @@
     background-image: url('yang-promotion-06.png');
     background-size: 100% auto;
     background-repeat: repeat-y;
+    padding:1.2rem;
 }
 .dex-promotion-main .dex-promotion-image-05__box {
     position: relative;
