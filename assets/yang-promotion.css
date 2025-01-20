@@ -62,7 +62,7 @@
 }
 
 .dex-promotion-main .dex-promotion-form__button {
-    font-size: calc(var(--font-heading-scale) * 1.5rem);
+    font-size: calc(var(--font-heading-scale) * 1.8rem);
     margin-top: 1.2rem;
     width: 100%;
     padding: 0;
