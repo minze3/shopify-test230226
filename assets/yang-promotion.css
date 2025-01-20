@@ -1,3 +1,7 @@
+.dex-promotion-main {
+    display: flex;
+    flex-direction: column;
+}
 .dex-promotion-main .dex-promotion-header {
     display: flex;
     flex-direction: column;
@@ -285,6 +289,17 @@
     }
     .dex-promotion-main .dex-promotion-image-10 .dex-box {
         padding-top:3rem;
+    }
+
+    .dex-promotion-main .dex-promotion-image-10{
+        order:1;
+    }
+    .dex-promotion-main .dex-promotion-image-07,
+    .dex-promotion-main .dex-promotion-image-08,
+    .dex-promotion-main .dex-promotion-image-09,
+    .dex-promotion-main .dex-promotion-footer
+    {
+        order:2;
     }
 
 }
