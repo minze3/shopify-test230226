@@ -61,7 +61,6 @@
     visibility: hidden;
 }
 
-
 .dex-promotion-main .dex-promotion-form__button {
     font-size: calc(var(--font-heading-scale) * 1.5rem);
     margin-top: 1.2rem;
@@ -70,9 +69,6 @@
     min-height: calc(4.5rem + var(--buttons-border-width)* 2);
 }
 
-.dex-promotion-main .dex-full-reserve-box {
-
-}
 .dex-promotion-main .dex-full-reserve-box .dex-box {
     padding:0;
     background-color: #ff3131;
@@ -81,8 +77,6 @@
     padding: 1.2rem 0;
     text-align: center;
 }
-
-.dex-promotion-main .dex-promotion-kameta {}
 
 .dex-promotion-main .dex-promotion-kameta__box {
     padding: 1.2rem
@@ -194,6 +188,7 @@
     .dex-promotion-main .dex-promotion-wrapper__desc {
         width: 80%;
         margin-bottom: 1.2rem;
+        font-size: calc(var(--font-heading-scale)* 2.6rem);
     }
 
     .dex-promotion-main .dex-promotion-form__field-wrapper {
