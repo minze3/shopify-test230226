@@ -154,8 +154,11 @@
 .dex-promotion-main .dex-promotion-image-05__box {
     position: relative;
 }
+.dex-promotion-main .dex-promotion-image-05 .pc {
+    padding-bottom: 5rem;
+}
 .dex-promotion-main .dex-promotion-image-05 .pc > div {
-    margin: 5rem 0;
+    margin-top: 5rem;
 }
 .dex-promotion-main .dex-promotion-image-05__flex {
     display: flex;
