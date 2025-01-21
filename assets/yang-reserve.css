@@ -38,7 +38,7 @@
 .dex-reserve-main .dex-reserve-header__area1-left button:first-child {
     background-color: #ff3131;
 }
-.dex-reserve-main .dex-reserve-header__area1-left button {
+.dex-reserve-main .dex-reserve-header__area1-left button:last-child {
     background-color: #00bf63;
 }
 .dex-reserve-main .dex-reserve-header__area1-right {
