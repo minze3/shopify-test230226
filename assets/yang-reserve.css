@@ -18,7 +18,7 @@
     flex-direction: column;
     position: relative;
 }
-.dex-reserve-main .dex-reserve-header__box::before {
+.dex-reserve-main .dex-reserve-header__box::before, .dex-reserve-main .dex-reserve-header__area1::before {
     content: "";
     position: absolute;
     top: 0;
@@ -31,6 +31,10 @@
     background-position: right center;
     background-repeat: no-repeat;
     opacity: 0.5; /* 设置透明度 */
+    display: none;
+}
+.dex-reserve-main .dex-reserve-header__box::before {
+    display: block;
 }
 .dex-reserve-main .dex-reserve-header__box-title {
     font-size: min(6.8rem,6.8vw);
@@ -141,6 +145,9 @@
     .dex-reserve-main .dex-reserve-header__area1 {
         padding:1.2rem;
         flex:unset;
+    }
+    .dex-reserve-main .dex-reserve-header__area1::before {
+        display: block;
     }
     .dex-reserve-main .dex-reserve-header__area1-right {
         display: none;
