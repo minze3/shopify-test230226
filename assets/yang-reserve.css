@@ -1,5 +1,6 @@
 .dex-reserve-main {
-
+    min-height: 100vh;
+    overflow: hidden;
 }
 .dex-reserve-main img {
     width: 100%;
