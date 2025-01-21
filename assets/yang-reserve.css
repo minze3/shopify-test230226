@@ -7,7 +7,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 3rem 0;
+    padding: 1.8rem 0;
 }
 .dex-reserve-main .dex-reserve-header__box-title {
     font-size: min(7.2rem,7.2vw);
