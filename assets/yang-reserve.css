@@ -101,6 +101,7 @@
     width: 100%;
 } */
 .dex-reserve-header__box-tipImage {
+    position: relative;
     display: none;
     flex-direction: column;
     height: 40vh;
