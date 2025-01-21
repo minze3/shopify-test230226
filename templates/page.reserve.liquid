@@ -1,3 +1,25 @@
-{{ 'yang/base.css' | asset_url | stylesheet_tag }}
+{{ 'yang-base.css' | asset_url | stylesheet_tag }}
+{{ 'yang-reserve.css' | asset_url | stylesheet_tag }}
 
-<div class='dex-main dex-reserve-main'>222</div>
+
+<div class='dex-main dex-reserve-main'>
+    <section class="dex-reserve-header">
+        <div class="dex-reserve-header__box page-width">
+            <div>Launching in Early February!</div>
+            <div>
+                <div>
+                    <div>Reserve $5 Now & Get $50 in Value!</div>
+                    <div>Extra $10 off the Kickstarter price</div>
+                    <div>FREE FRN scale set (6 pieces) + $20 mystery gift</div>
+                    <div>Fully refundable—zero risk!</div>
+                    <button>Claim Your Bonus Now!</button>
+                    <div>Click below to Follow us on Kickstarter and get notified when we go live.</div>
+                    <button>Claim Your Bonus Now!</button>
+                </div>
+                <div>
+                    <img src="{{ 'yang-reserve-pc-01.png' | asset_url }}">
+                </div> 
+            </div>
+        </div>
+    </section>
+</div>

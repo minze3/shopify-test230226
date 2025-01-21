@@ -1,0 +1,8 @@
+.dex-reserve-main {
+
+}
+.dex-reserve-main .dex-reserve-header__box {
+    display:flex;
+}
+@media screen and (max-width: 750px) {
+}

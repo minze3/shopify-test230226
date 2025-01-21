@@ -1,18 +1,5 @@
 {{ 'yang-base.css' | asset_url | stylesheet_tag }}
-{% comment %} {{ 'yang-base.scss.css' | asset_url | stylesheet_tag }} {% endcomment %}
 {{ 'yang-promotion.css' | asset_url | stylesheet_tag }}
-{% comment %} {{ 'yang-promotion.scss.css' | asset_url | stylesheet_tag }} {% endcomment %}
-
-{% comment %} {%- style -%}
-  .dex-full-header-box {
-    background-image: url({{'yang-promotion-pc-01.png'|asset_url}});
-  }
-  @media screen and (max-width: 750px) {
-    .dex-full-header-box {
-        background-image: url({{'yang-promotion-mob-01.png'|asset_url}});
-    }
-  }
-{%- endstyle -%} {% endcomment %}
 
 <div class="dex-main dex-promotion-main">
   <section class="dex-promotion-header">
