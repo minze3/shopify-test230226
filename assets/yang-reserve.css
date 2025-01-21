@@ -32,6 +32,7 @@
     font-size: min(7.2rem,7.2vw);
     font-weight: 600;
     text-align: center;
+    position: relative;
 }
 .dex-reserve-main .dex-reserve-header__area1 {
     flex:1;
@@ -88,7 +89,6 @@
     width:40%;
     flex-shrink: 0;
     margin-left: 4.8rem;
-    position: relative;
 }
 .dex-reserve-main .dex-reserve-header__area1-right img {
     width: 100%;
