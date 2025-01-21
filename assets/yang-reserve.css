@@ -40,10 +40,12 @@
     display: none;
 }
 .dex-reserve-main .dex-reserve-header__area1-left button:first-child {
-    background-color: #ff3131;
+    background-color: #00bf63;
+    /* background-color: #ff3131; */
 }
 .dex-reserve-main .dex-reserve-header__area1-left button:last-child {
-    background-color: #00bf63;
+    /* background-color: #00bf63; */
+    background-color: #ff3131;
 }
 .dex-reserve-main .dex-reserve-header__area1-right {
     width:40%;
