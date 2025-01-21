@@ -39,13 +39,11 @@
 .dex-reserve-main .dex-reserve-header__area1-left button::before{
     display: none;
 }
-.dex-reserve-main .dex-reserve-header__area1-left button:nth-child(1) {
-    /* background-color: #00bf63; */
+.dex-reserve-main .dex-reserve-header__area1-button-claim {
     background-color: #ff3131;
 }
-.dex-reserve-main .dex-reserve-header__area1-left button:last-child {
-    /* background-color: #00bf63; */
-    /* background-color: #ff3131; */
+.dex-reserve-main .dex-reserve-header__area1-button-claim {
+    background-color: #00bf63;
 }
 .dex-reserve-main .dex-reserve-header__area1-right {
     width:40%;
