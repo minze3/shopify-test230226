@@ -1,7 +1,6 @@
 
 .dex-reserve-main {
     position: relative;
-    height: 85vh;
     /* overflow-x: hidden; */
 }
 .dex-reserve-main img {
@@ -14,7 +13,7 @@
 
 }
 .dex-reserve-main .dex-reserve-header__box {
-    min-height: 100vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     position: relative;
