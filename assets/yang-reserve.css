@@ -162,7 +162,7 @@
     } */
     .dex-reserve-main .dex-reserve-header__box-title > div {
         background-color: #00c4cc;
-        padding:min(2rem,2vh) 0;
+        padding:min(1.2rem,1.2vh) 0;
     }
     .dex-reserve-main .dex-reserve-header__area1 {
         font-size: calc(var(--font-heading-scale)* 2rem);
