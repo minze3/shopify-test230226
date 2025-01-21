@@ -69,10 +69,10 @@
     display: block;
 }
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico.ico2 {
-    background-position-x: 33%;
+    background-position-x: 50%;
 }
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico.ico3 {
-    background-position-x: 68%;
+    background-position-x: 100%;
 }
 
 .dex-reserve-main .dex-reserve-header__area1-left button {
