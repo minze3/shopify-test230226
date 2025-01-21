@@ -126,4 +126,7 @@
     .dex-reserve-main .dex-reserve-header__area1-right {
         display: none;
     }
+    .dex-reserve-main .dex-reserve-header__box-title {
+        background-color: #00c4cc;
+    }
 }
