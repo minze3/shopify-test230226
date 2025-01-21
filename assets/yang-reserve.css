@@ -54,7 +54,7 @@
     margin-bottom: 1.8rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-list {
-
+    font-size: calc(var(--font-heading-scale)* 2.4rem);
 }
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-li {
     display: flex;
