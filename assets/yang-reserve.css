@@ -1,6 +1,9 @@
 .dex-reserve-main {
 
 }
+.dex-reserve-main img {
+    width: 100%;
+}
 .dex-reserve-main button{
     font-size: calc(var(--font-heading-scale)* 2rem);;
 }
@@ -94,12 +97,23 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.dex-reserve-main .dex-reserve-header__area1-right img {
+/* .dex-reserve-main .dex-reserve-header__area1-right img {
     width: 100%;
-}
+} */
 .dex-reserve-header__box-tipImage {
     display: none;
     flex-direction: column;
+    height: 40wh;
+    background-image: url('yang-reserve-mob-03.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dex-reserve-header__box-tipImage div:first-child{
+    width: 30%;
+}
+.dex-reserve-header__box-tipImage div:last-child{
+    width: 30%;
 }
 @media screen and (max-width: 750px) {
     .dex-reserve-header__box-tipImage {
