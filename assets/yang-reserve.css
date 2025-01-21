@@ -103,7 +103,7 @@
 .dex-reserve-header__box-tipImage {
     display: none;
     flex-direction: column;
-    height: 40wh;
+    height: 40vh;
     background-image: url('yang-reserve-mob-03.png');
     background-size: cover;
     background-position: center;
