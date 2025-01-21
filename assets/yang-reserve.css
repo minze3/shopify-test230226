@@ -19,6 +19,7 @@
 
 .dex-reserve-main .dex-reserve-header__area1-left {
     font-size: calc(var(--font-heading-scale)* 2.4rem);
+    display: flex;
 }
 .dex-reserve-main .dex-reserve-header__area1-left > div,
 .dex-reserve-main .dex-reserve-header__area1-left > button {
