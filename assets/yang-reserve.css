@@ -56,6 +56,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
 }
 .dex-reserve-main .dex-reserve-header__area1-left > div{
     margin-bottom: 1.8rem;
@@ -103,6 +104,7 @@
     background-color: #00bf63;
 }
 .dex-reserve-main .dex-reserve-header__area1-right {
+    position: relative;
     width:40%;
     flex-shrink: 0;
     margin-left: 4.8rem;
