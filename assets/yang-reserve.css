@@ -134,16 +134,18 @@
     .dex-reserve-header__box-tipImage {
         display: block;
         padding: 1.2rem;
+        flex:1;
     }
     .dex-reserve-main .dex-reserve-header__area1 {
         padding:1.2rem;
+        flex:unset;
     }
     .dex-reserve-main .dex-reserve-header__area1-right {
         display: none;
     }
-    .dex-reserve-main .dex-reserve-header__box-title {
+    /* .dex-reserve-main .dex-reserve-header__box-title {
         flex:1;
-    }
+    } */
     .dex-reserve-main .dex-reserve-header__box-title > div {
         background-color: #00c4cc;
         padding:min(2rem,2vh) 0;
