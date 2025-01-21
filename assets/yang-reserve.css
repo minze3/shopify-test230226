@@ -42,10 +42,10 @@
     transform: scale(.6);
 }
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico.ico2 {
-    background-position: -25%;
+    background-position-y: -25%;
 }
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico.ico3 {
-    background-position: -50%;
+    background-position-y: -50%;
 }
 
 .dex-reserve-main .dex-reserve-header__area1-left button {
