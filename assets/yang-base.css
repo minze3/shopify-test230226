@@ -12,6 +12,9 @@
     color: rgba(var(--color-foreground), 1);
     
 }
+body {
+    background-color: rgba(var(--color-background), 1);
+}
 .dex-main input, .dex-main button, .dex-main .radius {
     border-radius: var(--buttons-radius-outset);
     font-weight: 600;
