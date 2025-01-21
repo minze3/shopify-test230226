@@ -2,10 +2,14 @@
 
 }
 .dex-reserve-main .dex-reserve-header__box-title {
-    font-size: min(6rem,6vw);
+    font-size: min(7.2rem,7.2vw);
+    font-weight: 600;
 }
 .dex-reserve-main .dex-reserve-header__area1 {
     display:flex;
+}
+.dex-reserve-main .dex-reserve-header__area1-pic {
+    width:40%
 }
 @media screen and (max-width: 750px) {
 }
