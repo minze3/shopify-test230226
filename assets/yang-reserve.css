@@ -97,5 +97,12 @@
 .dex-reserve-main .dex-reserve-header__area1-right img {
     width: 100%;
 }
+.dex-reserve-header__box-tipImage {
+    display: none;
+    flex-direction: column;
+}
 @media screen and (max-width: 750px) {
+    .dex-reserve-header__box-tipImage {
+        display: block;
+    }
 }
