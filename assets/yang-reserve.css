@@ -144,6 +144,15 @@
     .dex-reserve-main .dex-reserve-header__area1 {
         font-size: calc(var(--font-heading-scale)* 1.8rem);
     }
+    .dex-reserve-main .dex-reserve-header__area1-left > div{
+        margin-bottom: 1.2rem;
+    }
+    .dex-reserve-main .dex-reserve-header__area1-left button {
+        width: 100%;
+        margin: 1.2rem 0 1.8rem;
+        border-radius: 1.8rem;
+        box-shadow: none;
+    }
     .dex-reserve-main .dex-reserve-header__area1-list {
         font-size: calc(var(--font-heading-scale)* 1.6rem);
     }
