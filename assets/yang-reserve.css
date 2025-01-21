@@ -58,6 +58,7 @@
 }
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-li {
     display: flex;
+    margin: .6rem 0;
 }
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico {
     background-image: url('yang-reserve-02.png');
