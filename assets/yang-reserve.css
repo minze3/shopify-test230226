@@ -5,13 +5,18 @@
     font-size: calc(var(--font-heading-scale)* 2rem);;
 }
 .dex-reserve-main .dex-reserve-header {
-    background-image: url('yang-reserve-pc-01.png');
+
 }
 .dex-reserve-main .dex-reserve-header__box {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 1.8rem 0;
+
+    background-image: url('yang-reserve-pc-01.png');
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 .dex-reserve-main .dex-reserve-header__box-title {
     font-size: min(7.2rem,7.2vw);
