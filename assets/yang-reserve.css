@@ -36,7 +36,7 @@
     padding-left:3.6rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico {
-    position: absolute;
+    background-image: url('yang-reserve-02.png');
 }
 
 .dex-reserve-main .dex-reserve-header__area1-left button {
