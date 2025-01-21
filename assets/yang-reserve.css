@@ -147,7 +147,7 @@
         padding:min(2rem,2vh) 0;
     }
     .dex-reserve-main .dex-reserve-header__area1 {
-        font-size: calc(var(--font-heading-scale)* 1.8rem);
+        font-size: calc(var(--font-heading-scale)* 2rem);
     }
     .dex-reserve-main .dex-reserve-header__area1-left > div{
         margin-bottom: 1.2rem;
@@ -159,7 +159,7 @@
         box-shadow: none;
     }
     .dex-reserve-main .dex-reserve-header__area1-list {
-        font-size: calc(var(--font-heading-scale)* 1.6rem);
+        font-size: calc(var(--font-heading-scale)* 1.8rem);
     }
     .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico {
         background-image: url(yang-reserve-02.png);
