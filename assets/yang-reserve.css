@@ -23,6 +23,9 @@
 .dex-reserve-main .dex-reserve-header__area1-left > div {
     margin-bottom: 1.2rem;
 }
+.dex-reserve-main .dex-reserve-header__area1-left button {
+    width: 100%;
+}
 .dex-reserve-main .dex-reserve-header__area1-left div:first-child {
     flex:1
 }
