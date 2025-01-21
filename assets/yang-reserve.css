@@ -2,7 +2,7 @@
 .dex-reserve-main {
     position: relative;
     min-height: 85vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .dex-reserve-main img {
     width: 100%;
