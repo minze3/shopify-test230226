@@ -11,5 +11,8 @@
 .dex-reserve-main .dex-reserve-header__area1-pic {
     width:40%
 }
+.dex-reserve-main .dex-reserve-header__area1-pic img {
+    width: 100%;
+}
 @media screen and (max-width: 750px) {
 }
