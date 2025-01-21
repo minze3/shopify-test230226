@@ -11,6 +11,7 @@
 .dex-reserve-main .dex-reserve-header__box-title {
     font-size: min(7.2rem,7.2vw);
     font-weight: 600;
+    text-align: center;
 }
 .dex-reserve-main .dex-reserve-header__area1 {
     flex:1;
@@ -21,20 +22,21 @@
     font-size: calc(var(--font-heading-scale)* 2.4rem);
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 .dex-reserve-main .dex-reserve-header__area1-left > div,
 .dex-reserve-main .dex-reserve-header__area1-left > button {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.8rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-left button {
     width: 100%;
 }
-.dex-reserve-main .dex-reserve-header__area1-left div:first-child {
-    flex:1
+.dex-reserve-main .dex-reserve-header__area1-left div:last-child {
+    margin-bottom: 6rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-right {
     width:40%;
-    margin-left: 1.2rem;
+    margin-left: 2.4rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-right img {
     width: 100%;
