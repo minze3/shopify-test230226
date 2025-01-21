@@ -31,12 +31,12 @@
 .dex-reserve-main .dex-reserve-header__area1-left button {
     width: 100%;
 }
-.dex-reserve-main .dex-reserve-header__area1-left div:last-child {
+.dex-reserve-main .dex-reserve-header__area1-left button:last-child {
     margin-bottom: 6rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-right {
     width:40%;
-    margin-left: 2.4rem;
+    margin-left: 4.8rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-right img {
     width: 100%;
