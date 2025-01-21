@@ -65,6 +65,7 @@
     height:calc(var(--font-heading-scale)* 3.6rem);
     background-size: cover;
     transform: scale(.8);
+    margin-right: .8rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico img {
     display: block;
