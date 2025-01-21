@@ -146,6 +146,9 @@
         padding:1.2rem;
         flex:unset;
     }
+    .dex-reserve-main .dex-reserve-header__box::before {
+        display: none;
+    }
     .dex-reserve-main .dex-reserve-header__area1::before {
         display: block;
     }
