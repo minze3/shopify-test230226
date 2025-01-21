@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     padding: 1.8rem 0;
+    position: relative;
 }
 .dex-reserve-main .dex-reserve-header__box::before {
     content: "";
