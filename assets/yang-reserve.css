@@ -16,6 +16,7 @@
 .dex-reserve-main .dex-reserve-header__area1 {
     flex:1;
     display:flex;
+    padding-bottom: 3rem;
 }
 
 .dex-reserve-main .dex-reserve-header__area1-left {
@@ -29,7 +30,7 @@
 }
 .dex-reserve-main .dex-reserve-header__area1-left button {
     width: 100%;
-    margin-bottom: 6rem;
+    margin: 3rem 0;
 }
 .dex-reserve-main .dex-reserve-header__area1-right {
     width:40%;
