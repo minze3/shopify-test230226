@@ -14,7 +14,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 1.8rem 0;
+    padding: 1.8rem;
     position: relative;
 }
 .dex-reserve-main .dex-reserve-header__box::before {
@@ -42,10 +42,10 @@
     display:flex;
     padding-bottom: 3rem;
     position: relative;
+    font-size: calc(var(--font-heading-scale)* 2.8rem);
 }
 
 .dex-reserve-main .dex-reserve-header__area1-left {
-    font-size: calc(var(--font-heading-scale)* 2.8rem);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -120,6 +120,9 @@
     bottom: 1.2rem;
 }
 @media screen and (max-width: 750px) {
+    .dex-reserve-main .dex-reserve-header__box {
+        padding: 1.2rem;
+    }
     .dex-reserve-header__box-tipImage {
         display: block;
     }
@@ -129,5 +132,8 @@
     .dex-reserve-main .dex-reserve-header__box-title {
         background-color: #00c4cc;
         padding:min(2rem,2vh) 0;
+    }
+    .dex-reserve-main .dex-reserve-header__area1 {
+        font-size: calc(var(--font-heading-scale)* 1.8rem);
     }
 }
