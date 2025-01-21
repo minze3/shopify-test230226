@@ -89,6 +89,10 @@
     width:40%;
     flex-shrink: 0;
     margin-left: 4.8rem;
+    background-image: url('yang-reserve-pc-01.png');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .dex-reserve-main .dex-reserve-header__area1-right img {
     width: 100%;
