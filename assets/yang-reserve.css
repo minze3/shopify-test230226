@@ -133,6 +133,7 @@
     }
     .dex-reserve-header__box-tipImage {
         display: block;
+        padding: 1.2rem;
     }
     .dex-reserve-main .dex-reserve-header__area1 {
         padding:1.2rem;
