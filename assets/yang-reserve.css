@@ -35,6 +35,12 @@
     border-radius: 2.4rem;
     box-shadow:none;
 }
+.dex-reserve-main .dex-reserve-header__area1-left button:first-child {
+    background-color: #ff3131;
+}
+.dex-reserve-main .dex-reserve-header__area1-left button {
+    background-color: #00bf63;
+}
 .dex-reserve-main .dex-reserve-header__area1-right {
     width:40%;
     flex-shrink: 0;
