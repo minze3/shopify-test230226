@@ -19,7 +19,7 @@
 }
 
 .dex-reserve-main .dex-reserve-header__area1-left {
-    font-size: calc(var(--font-heading-scale)* 2.4rem);
+    font-size: calc(var(--font-heading-scale)* 3.6rem);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
