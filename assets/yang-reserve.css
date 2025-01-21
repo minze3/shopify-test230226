@@ -65,6 +65,9 @@
     background-size: cover;
     transform: scale(.6);
 }
+.dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico img {
+    display: block;
+}
 .dex-reserve-main .dex-reserve-header__area1-list .dex-reserve-header__area1-list-ico.ico2 {
     background-position-x: 33%;
 }
