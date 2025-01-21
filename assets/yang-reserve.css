@@ -42,6 +42,7 @@
     padding-bottom: 3rem;
     position: relative;
     font-size: calc(var(--font-heading-scale)* 2.8rem);
+    font-weight: 600;
     padding: 1.8rem;
 }
 
