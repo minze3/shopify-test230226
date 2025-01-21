@@ -35,10 +35,10 @@
     font-weight: 600;
     text-align: center;
     position: relative;
-    flex:1;
 }
 .dex-reserve-main .dex-reserve-header__area1 {
     display:flex;
+    flex:1;
     padding-bottom: 3rem;
     position: relative;
     font-size: calc(var(--font-heading-scale)* 2.8rem);
@@ -138,6 +138,9 @@
     }
     .dex-reserve-main .dex-reserve-header__area1-right {
         display: none;
+    }
+    .dex-reserve-main .dex-reserve-header__box-title {
+        flex:1;
     }
     .dex-reserve-main .dex-reserve-header__box-title > div {
         background-color: #00c4cc;
