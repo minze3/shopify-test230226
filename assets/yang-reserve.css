@@ -1,11 +1,11 @@
 .dex-reserve-main {
-    background-image: url('yang-reserve-01.png');
+
 }
 .dex-reserve-main button{
     font-size: calc(var(--font-heading-scale)* 2rem);;
 }
 .dex-reserve-main .dex-reserve-header {
-
+    background-image: url('yang-reserve-01.png');
 }
 .dex-reserve-main .dex-reserve-header__box {
     min-height: 100vh;
