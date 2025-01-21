@@ -109,11 +109,13 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.dex-reserve-header__box-tipImage div:first-child{
+.dex-reserve-header__box-tipImage div{
     width: 30%;
 }
 .dex-reserve-header__box-tipImage div:last-child{
-    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 @media screen and (max-width: 750px) {
     .dex-reserve-header__box-tipImage {
