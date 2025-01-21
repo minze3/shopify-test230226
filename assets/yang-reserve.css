@@ -1,6 +1,9 @@
 .dex-reserve-main {
 
 }
+.dex-reserve-main .dex-reserve-header__box-title {
+    font-size: min(6rem,6vw);
+}
 .dex-reserve-main .dex-reserve-header__area1 {
     display:flex;
 }
