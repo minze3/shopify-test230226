@@ -24,14 +24,11 @@
     flex-direction: column;
     justify-content: flex-end;
 }
-.dex-reserve-main .dex-reserve-header__area1-left > div,
-.dex-reserve-main .dex-reserve-header__area1-left > button {
+.dex-reserve-main .dex-reserve-header__area1-left > div{
     margin-bottom: 1.8rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-left button {
     width: 100%;
-}
-.dex-reserve-main .dex-reserve-header__area1-left button:last-child {
     margin-bottom: 6rem;
 }
 .dex-reserve-main .dex-reserve-header__area1-right {
