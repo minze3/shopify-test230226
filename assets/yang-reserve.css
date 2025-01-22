@@ -108,7 +108,7 @@
     width:40%;
     flex-shrink: 0;
     margin-left: 4.8rem;
-    background-image: url('yang-reserve-pc-01.png');
+    /* background-image: url('yang-reserve-pc-01.png'); */
     background-size: 94% auto;
     background-position: center;
     background-repeat: no-repeat;
