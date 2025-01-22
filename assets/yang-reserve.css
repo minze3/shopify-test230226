@@ -55,7 +55,7 @@
 .dex-reserve-main .dex-reserve-header__area1-left {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     position: relative;
 }
 .dex-reserve-main .dex-reserve-header__area1-left > div{
