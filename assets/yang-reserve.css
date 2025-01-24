@@ -92,6 +92,7 @@
     margin: 1.8rem 0 3rem;
     border-radius: 2.4rem;
     box-shadow:none;
+    font-size: calc(var(--font-heading-scale)* 1.6rem);
 }
 .dex-reserve-main .dex-reserve-header__area1-left a::after,
 .dex-reserve-main .dex-reserve-header__area1-left a::before{
