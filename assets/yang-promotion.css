@@ -86,6 +86,9 @@
     padding: 0;
     min-height: calc(4.5rem + var(--buttons-border-width)* 2);
 }
+.dex-promotion-main .dex-promotion-form__button.button:not([disabled]):hover:after {
+    display: none;
+}
 
 .dex-promotion-main .dex-full-reserve-box  {
     padding-top:1.2rem;
