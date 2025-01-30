@@ -13,14 +13,13 @@
             A Revolutionary Quick-Swap Design That Redefines Knife Customization in Just 30 Seconds!
           </h2>
           {% form 'customer', class: 'dex-promotion-form' %}
-            <input type="hidden" name="test" value="dex-promotion">
             <input type="hidden" name="return_to" value="{{ pages['reserve'].url }}">
             {% if form.email %}
               <script>
                 window.location.href = "{{ pages['reserve'].url }}";
               </script>
             {% endif %}
-            <input type="hidden" name="contact[tags]" value="dex-newsletter">
+            <input type="hidden" name="contact[tags]" value="kameta">
             <div class="dex-promotion-form__field-wrapper">
               <div class="field">
                 <input
@@ -36,9 +35,7 @@
                   placeholder="Email"
                   required
                 >
-                <label class="field__label" for="dex-promotion-form__email">
-                  {{ 'newsletter.label' | t }}
-                </label>
+                <label class="field__label" for="dex-promotion-form__email">Email</label>
                 <button
                   type="submit"
                   class="dex-promotion-form__button button"
@@ -237,9 +234,7 @@
                   placeholder="Email"
                   required
                 >
-                <label class="field__label" for="dex-promotion-form__email">
-                  {{ 'newsletter.label' | t }}
-                </label>
+                <label class="field__label" for="dex-promotion-form__email">Email</label>
                 <button
                   type="submit"
                   class="dex-promotion-form__button button"

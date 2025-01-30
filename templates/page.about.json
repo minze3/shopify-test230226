@@ -1,0 +1,291 @@
+{
+  "sections": {
+    "image_with_text_overlay_zRwyQf": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "large",
+        "image": "shopify:\/\/shop_images\/X2-6.jpg",
+        "subheading": "About us",
+        "title": "We are a group of industrial designers",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "contentmax_width": 525,
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_g8EtQb": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>In  the picturesque landscape of Western Canada, nestled at the base of the  majestic Rocky Mountains, our team of industrial designers, mechanical  engineers, and product engineers has thrived for the past 15 years. Our  journey into the world of mechanical design and manufacturing has been  nothing short of adventurous, and it was during one of our escapades in  2020 that our true calling emerged.  As enthusiasts of everyday carry (EDC) equipment ourselves, we were out hiking  and cycling in the rugged beauty of the Rockies when it struck us—the  EDC gear we had with us lacked the functionality we needed for our  outdoor pursuits. It was in that moment, amidst the awe-inspiring  natural scenery, that we decided to take matters into our own hands and  craft EDC products that truly resonated with our passion and needs. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "custome-class": ""
+      }
+    },
+    "image_with_text_D7gfzY": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_LqFrqF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blade1.jpg",
+            "tab_label": "Item",
+            "subheading": "Our  philosophy",
+            "title": "simple but powerful",
+            "content": "<p>Every piece of EDC gear we create  must serve a distinct purpose, beyond just being aesthetically pleasing.  We are dedicated to infusing each of our products with a unique blend  of form and function, ensuring that they not only look great but also  excel in their intended roles.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_LqFrqF"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#151515",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_yqaP94": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_8jwcHd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L1040387-_-NR_42a6c665-54cc-4958-96c2-7e3ace2ee651.jpg",
+            "tab_label": "Item",
+            "subheading": "lighter, stronger, and  more durable,",
+            "title": "a material that embodies our commitment to quality.",
+            "content": "<p>In our relentless pursuit of excellence, we prioritize creating offerings that are lighter, stronger, and more durable, seamlessly integrating into people's lifestyles. Our particular affinity for Titanium reflects our commitment to quality, as it boasts exceptional strength-to-weight ratio and corrosion resistance, making it an ideal choice for our EDC gear.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_8jwcHd"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#151515",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_YpFqQE": {
+      "type": "rich-text",
+      "custom_css": [
+        ".vertical-breather {padding-bottom: 18px;}",
+        "section{padding-bottom: 0;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "OUR VALUES",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#f7f8f9",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "custome-class": ""
+      }
+    },
+    "text_with_icons_7UBTGg": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_mj4gBr": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Purpose-Driven_Innovation.svg",
+            "custom_icon_width": 50,
+            "title": "Purpose-Driven Innovation",
+            "content": "<p>We create EDC gear that enhances everyday experiences with thoughtful design.<\/p>"
+          }
+        },
+        "item_yr4k3j": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Uncompromising_Quality.svg",
+            "custom_icon_width": 50,
+            "title": "Uncompromising Quality",
+            "content": "<p>Our products exceed standards, built with premium materials like Titanium for lasting durability.<\/p>"
+          }
+        },
+        "item_hXixLN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Adventurous_Spirit.svg",
+            "custom_icon_width": 50,
+            "title": "Adventurous Spirit",
+            "content": "<p>Rooted in Western Canada's landscapes, our EDC gear is rugged and resilient for any adventure.<\/p>"
+          }
+        },
+        "item_Kd4fzG": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/Community-Centric_Approach.svg",
+            "custom_icon_width": 50,
+            "title": "Community-Centric Approach",
+            "content": "<p>We co-create EDC solutions that resonate with our customers' needs through inclusive engagement.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_mj4gBr",
+        "item_yr4k3j",
+        "item_hXixLN",
+        "item_Kd4fzG"
+      ],
+      "settings": {
+        "background": "#f7f8f9",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_NVKCXF": {
+      "type": "image-with-text-block",
+      "custom_css": [
+        "{padding-top: 6px; padding-bottom: 6px;}",
+        ".image-with-text-block__content {background-color: #f7f8f9;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/SnapTi9.jpg",
+        "subheading": "Elevating Everyday Life",
+        "title": "Experience the Perfect Fusion of Style and Functionality in Our Product Range",
+        "content": "<p>Each of our offerings reflects our commitment to quality, innovation, and enhancing your overall lifestyle. We invite you to discover the perfect blend of style and functionality in our exclusive range of products.<\/p>",
+        "button_text": "Shop Our collection",
+        "button_link": "shopify:\/\/collections",
+        "background_type": "full_width",
+        "text_position": "overlap_left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_Yt8cCY": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_Jz8R6K": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gemma-evans-JUrolU3FLTA-unsplash.jpg",
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "item_yY9zLa": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Jz8R6K",
+        "item_yY9zLa"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "newsletter_wwtHHD": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/L1030614_936c4dfa-d0ca-4f70-ac9c-7b2c6604fa1c.jpg",
+        "subheading": "Ready to Collaborate with Us?",
+        "content": "<p>Your support goes beyond purchasing an innovative tool. Join us in witnessing this extraordinary journey.<\/p>",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_zRwyQf",
+    "rich_text_g8EtQb",
+    "image_with_text_D7gfzY",
+    "image_with_text_yqaP94",
+    "rich_text_YpFqQE",
+    "text_with_icons_7UBTGg",
+    "image_with_text_block_NVKCXF",
+    "image_with_text_Yt8cCY",
+    "main",
+    "newsletter_wwtHHD"
+  ]
+}

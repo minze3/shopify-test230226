@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "image_with_text_overlay_BYHLUC": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/0006_P1054691_7bfd83d0-2cbe-4440-82fd-5c8445d522ac.jpg",
+        "subheading": "",
+        "title": "FREQUENTLY ASKEDQUESTIONS",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "category_7EgkJD": {
+          "type": "category",
+          "settings": {
+            "title": "SHIPPING"
+          }
+        },
+        "question_AXA4DT": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "question_R6aA6Y": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to ship my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "question_XxrWEX": {
+          "type": "question",
+          "settings": {
+            "title": "Which shipping carriers do you use?",
+            "answer": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.<\/p>"
+          }
+        },
+        "category_Cdj4c7": {
+          "type": "category",
+          "settings": {
+            "title": "PRODUCT"
+          }
+        },
+        "question_7hQ7Ad": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return my product?",
+            "answer": "<p>We always aim for make sure our customers love our products, but if you do need to return an order, we’re happy to help. Just <a href=\"\/pages\/contact-us\" title=\"contact us\">email us<\/a> directly and we’ll take you through the process.<\/p>"
+          }
+        },
+        "question_mn9PAi": {
+          "type": "question",
+          "settings": {
+            "title": "Can I personalize my product?",
+            "answer": "<p>It depends on the creator and the product. All options are outlined on the product page, so look out for customization options there.<\/p>"
+          }
+        },
+        "category_tkeN4g": {
+          "type": "category",
+          "settings": {
+            "title": "ACCOUNT"
+          }
+        },
+        "question_MGy97L": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need an account?",
+            "answer": "<p>No it's not mandatory. But it is highly recommended. Indeed, it will allow you to find your history, edit your addresses and track your parcel online faster. You will also be notified of new products and special events.<\/p>"
+          }
+        },
+        "question_E9xATt": {
+          "type": "question",
+          "settings": {
+            "title": "Do you save my bank details?",
+            "answer": "<p>Absolutely not! We never have access to this information. It is the company Stripe that deals with it. Your data is completely safe.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_7EgkJD",
+        "question_AXA4DT",
+        "question_R6aA6Y",
+        "question_XxrWEX",
+        "category_Cdj4c7",
+        "question_7hQ7Ad",
+        "question_mn9PAi",
+        "category_tkeN4g",
+        "question_MGy97L",
+        "question_E9xATt"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection_list_tNfYYn": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_ymDtGM": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop",
+            "image": "shopify:\/\/shop_images\/399697665_17975033003610212_1104116826663627593_n.jpg",
+            "subheading": "All Item",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dHMbeN": {
+          "type": "collection",
+          "settings": {
+            "collection": "edc-add-on-accessories",
+            "image": "shopify:\/\/shop_images\/P1054786.png",
+            "subheading": "Accessories",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gMwHa8": {
+          "type": "collection",
+          "settings": {
+            "collection": "edc-items",
+            "subheading": "EDC items",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_ymDtGM",
+        "collection_dHMbeN",
+        "collection_gMwHa8"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "EXPLORE OUR COLLECTIONS",
+        "title": "",
+        "background": "#f7f8f9",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_BYHLUC",
+    "main",
+    "faq",
+    "collection_list_tNfYYn"
+  ]
+}

@@ -1,0 +1,800 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+    "sections": {
+      "main": {
+        "type": "main-product",
+        "blocks": {
+          "loox_reviews_loox_rating_LwWcFm": {
+            "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+            "settings": {
+              "contentSize": 16,
+              "pattern": "",
+              "hideText": false,
+              "alignment": "",
+              "layout": "",
+              "textColor": "",
+              "starColor": "",
+              "showAllReviews": false,
+              "looxOpenFloatingWidget": false,
+              "emptyRatingWidget": false
+            }
+          },
+          "variant_picker": {
+            "type": "variant_picker",
+            "settings": {
+              "hide_sold_out_variants": false,
+              "selector_mode": "block",
+              "color_mode": "swatch",
+              "variant_image_options": "",
+              "size_chart_page": ""
+            }
+          },
+          "quantity_selector": {
+            "type": "quantity_selector",
+            "settings": {}
+          },
+          "inventory_G4GHzQ": {
+            "type": "inventory",
+            "settings": {
+              "low_inventory_threshold": 0
+            }
+          },
+          "buy_buttons": {
+            "type": "buy_buttons",
+            "settings": {
+              "show_payment_button": true,
+              "show_gift_card_recipient": true,
+              "atc_button_background": "#ffffff",
+              "atc_button_text_color": "#151515",
+              "buy_now_button_background": "rgba(0,0,0,0)",
+              "buy_now_button_text_color": "rgba(0,0,0,0)"
+            }
+          },
+          "seguno_email_back_in_stock_Pr36xm": {
+            "type": "shopify://apps/seguno-email/blocks/back_in_stock/db65571f-fa4d-473d-baa2-283a96dc76bc",
+            "disabled": true,
+            "settings": {
+              "heading": "<h3>Get notified when this is back in stock</h3>",
+              "label_email": "Email",
+              "placeholder_email": "",
+              "show_permission_checkbox": false,
+              "label_permission": "<p>Also, sign up to receive newsletters</p>",
+              "label_notify": "Notify me",
+              "label_success": "<p>Thanks! You will be notified once the product is back in stock.</p>",
+              "product_exclusion_tag": "back-in-stock-excluded",
+              "default_variant": "available",
+              "padding": 0,
+              "form_gap": 16,
+              "button_alignment": "stretch",
+              "font_size": 16,
+              "input_font_size": 16,
+              "button_font_size": 16,
+              "background_color": "#ffffff",
+              "text_color": "#121212",
+              "button_background_color": "#121212",
+              "button_border_color": "#121212",
+              "button_text_color": "#ffffff",
+              "input_background_color": "#ffffff",
+              "input_border_color": "#121212",
+              "input_text_color": "#121212",
+              "custom_css": ""
+            }
+          },
+          "qikify_upsell_bundle_bogo_offer_fnXfQt": {
+            "type": "shopify://apps/q-discount-free-gift/blocks/bogo_offer/2e94b962-8172-4839-8ad9-7837eb8b017a",
+            "settings": {
+              "product": ""
+            }
+          }
+        },
+        "block_order": [
+          "loox_reviews_loox_rating_LwWcFm",
+          "variant_picker",
+          "quantity_selector",
+          "inventory_G4GHzQ",
+          "buy_buttons",
+          "seguno_email_back_in_stock_Pr36xm",
+          "qikify_upsell_bundle_bogo_offer_fnXfQt"
+        ],
+        "custom_css": [
+          ".swym-loaded {display: none !important;}"
+        ],
+        "settings": {
+          "show_vendor": false,
+          "show_sku": false,
+          "show_taxes_included": false,
+          "show_product_rating": false,
+          "show_sticky_add_to_cart": true,
+          "show_share_buttons": true,
+          "share_icons_position": "after_buttons",
+          "help_page": "",
+          "enable_video_autoplay": true,
+          "enable_video_looping": false,
+          "enable_image_zoom": true,
+          "show_thumbnails_on_mobile": true,
+          "desktop_thumbnails_position": "bottom",
+          "transition_effect": "slide"
+        }
+      },
+      "product-content": {
+        "type": "product-content",
+        "blocks": {
+          "description": {
+            "type": "description",
+            "disabled": true,
+            "settings": {}
+          },
+          "content_3q8AtP": {
+            "type": "content",
+            "settings": {
+              "title": "DESCRIPTION",
+              "content": "<p>{{ product.metafields.custom.pichix22 | metafield_tag }}</p>",
+              "page": ""
+            }
+          },
+          "content_dRezrc": {
+            "type": "content",
+            "settings": {
+              "title": "SPECS & WEIGHT",
+              "content": "<p>{{ product.metafields.custom.specs | metafield_tag }}</p>",
+              "page": ""
+            }
+          },
+          "content_D34WK6": {
+            "type": "content",
+            "settings": {
+              "title": "SHIPPING & WARRANTY",
+              "content": "<p>{{ product.metafields.custom.shipping_warranty | metafield_tag }}</p>",
+              "page": ""
+            }
+          }
+        },
+        "block_order": [
+          "description",
+          "content_3q8AtP",
+          "content_dRezrc",
+          "content_D34WK6"
+        ],
+        "settings": {}
+      },
+      "video_yayrMY": {
+        "type": "video",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "video_url": "https://www.youtube.com/watch?v=DePQzLFgkkI&t=11s",
+          "background_type": "full_width",
+          "video_size": "auto",
+          "autoplay": true,
+          "show_video_controls": false,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "image_with_text_CMzYxV": {
+        "type": "image-with-text",
+        "blocks": {
+          "item_VULgDT": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/Designed_and_Created_in_Western_Canada_square.jpg",
+              "tab_label": "",
+              "subheading": "",
+              "title": "Designed and Created in Western Canada",
+              "content": "<p>We are driven by our passion for firearm attachments and retro cars and inspired by the beautiful lakes found around Kananaskis, Alberta.</p><p>After 11 months of designing, building, and testing, we proudly present an all-in-one pocket tool EDC enthusiasts need to add to their arsenal, PICHI X2.</p>",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "item_VULgDT"
+        ],
+        "disabled": true,
+        "settings": {
+          "reveal_on_scroll": true,
+          "background_type": "full_width",
+          "background_overlap": "both",
+          "image_position": "right",
+          "text_alignment": "left",
+          "cycle_speed": 8,
+          "accent_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "image_with_text_overlay_GFxNeF": {
+        "type": "image-with-text-overlay",
+        "custom_css": [
+          "h3 {text-align: center;}"
+        ],
+        "settings": {
+          "reveal_on_scroll": true,
+          "section_height": "auto",
+          "image": "{{ product.metafields.custom.product_information.value.section_2_desktop_image.value }}",
+          "mobile_image": "{{ product.metafields.custom.product_information.value.section_2_mobile_image.value }}",
+          "subheading": "",
+          "title": "{{ product.metafields.custom.product_information.value.section_2_heading.value }}",
+          "content": "",
+          "button_text": "",
+          "button_link": "",
+          "link_style": "link",
+          "background_type": "full_width",
+          "text_width": "medium",
+          "text_position": "middle_left",
+          "contentmax_width": 525,
+          "text_color": "#ffffff",
+          "button_background": "#ffffff",
+          "button_text_color": "#000000",
+          "overlay_color": "#c9c9c7",
+          "overlay_opacity": 0
+        }
+      },
+      "rich_text_eWaCky": {
+        "type": "rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "content": "{{ product.metafields.custom.product_information.value.section_3_content | metafield_tag }}",
+          "button_text": "",
+          "button_link": "",
+          "background_type": "full_width",
+          "text_width": "large",
+          "text_position": "center",
+          "text_alignment": "center",
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)",
+          "custome-class": ""
+        }
+      },
+      "multi_row_GL7V9n": {
+        "type": "multi-row",
+        "blocks": {
+          "add_blocks_nmGMKX": {
+            "type": "add_blocks",
+            "settings": {
+              "image": "shopify://shop_images/HowtoPutonaaGRIP6Belt_75c1aa87-367d-45d1-9142-5cbc46afb721.gif",
+              "image_position": "left",
+              "subheading": "",
+              "heading": "Customize Your Fit in Under 5 Minutes",
+              "content": "<p>The SnapTi Buckle and Belt features a versatile one-size webbing that allows you to tailor the belt to your perfect fit in less than five minutes. Designed for simplicity and comfort, this innovative belt ensures a personalized fit every time, making it a must-have for everyday wear. Adjust, snap, and go!</p>",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "add_blocks_nmGMKX"
+        ],
+        "settings": {
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_top_mobile": 0,
+          "padding_bottom_mobile": 0
+        }
+      },
+      "two_image_with_text_QrRfRJ": {
+        "type": "two-image-with-text",
+        "blocks": {
+          "image_yWKDVh": {
+            "type": "image",
+            "settings": {
+              "image": "{{ product.metafields.custom.product_information.value.section_4_desktop_image.value }}",
+              "mobile_image": "{{ product.metafields.custom.product_information.value.section_4_mobile_image.value }}"
+            }
+          },
+          "image_with_content_qENrwt": {
+            "type": "image_with_content",
+            "settings": {
+              "image_1": "{{ product.metafields.custom.product_information.value.secttion_4_image_1.value }}",
+              "image_2": "{{ product.metafields.custom.product_information.value.secttion_4_image_2.value }}",
+              "subheading": "",
+              "heading": "{{ product.metafields.custom.product_information.value.secttion_4_heading.value }}",
+              "content": "{{ product.metafields.custom.product_information.value.secttion_4_content | metafield_tag }}",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_yWKDVh",
+          "image_with_content_qENrwt"
+        ],
+        "disabled": true,
+        "settings": {
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_top_mobile": 0,
+          "padding_bottom_mobile": 0
+        }
+      },
+      "rich_text_f7xzHq": {
+        "type": "rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "content": "{{ product.metafields.custom.product_information.value.section_5_content | metafield_tag }}",
+          "button_text": "",
+          "button_link": "",
+          "background_type": "full_width",
+          "text_width": "large",
+          "text_position": "center",
+          "text_alignment": "center",
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)",
+          "custome-class": ""
+        }
+      },
+      "multi_row_QPapij": {
+        "type": "multi-row",
+        "blocks": {
+          "add_blocks_cCrXa7": {
+            "type": "add_blocks",
+            "settings": {
+              "image": "shopify://shop_images/SnapTi_7.jpg",
+              "image_position": "right",
+              "subheading": "",
+              "heading": "Vibrant Colors That Last with Ion-Plated Titanium",
+              "content": "<p>The SnapTi Buckle and Belt uses <strong>ion-plated titanium coloring</strong> for unmatched durability and lasting vibrancy. Its bold colors resist wear, keeping you stylish no matter the occasion.</p>",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "add_blocks_cCrXa7"
+        ],
+        "settings": {
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_top_mobile": 0,
+          "padding_bottom_mobile": 0
+        }
+      },
+      "two_image_with_text_WHAQ7p": {
+        "type": "two-image-with-text",
+        "blocks": {
+          "image_with_content_LwdwmU": {
+            "type": "image_with_content",
+            "settings": {
+              "image_1": "{{ product.metafields.custom.product_information.value.section_one_image_1.value }}",
+              "image_2": "{{ product.metafields.custom.product_information.value.section_one_image_2.value }}",
+              "subheading": "",
+              "heading": "{{ product.metafields.custom.product_information.value.section_one_heading.value }}",
+              "content": "{{ product.metafields.custom.product_information.value.section_one_content | metafield_tag }}",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "image_XcEHtW": {
+            "type": "image",
+            "settings": {
+              "image": "{{ product.metafields.custom.product_information.value.section_one_desktop_image.value }}",
+              "mobile_image": "{{ product.metafields.custom.product_information.value.section_one_mobile_image.value }}"
+            }
+          }
+        },
+        "block_order": [
+          "image_with_content_LwdwmU",
+          "image_XcEHtW"
+        ],
+        "disabled": true,
+        "settings": {
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_top_mobile": 48,
+          "padding_bottom_mobile": 48
+        }
+      },
+      "image_with_text_bWa3a8": {
+        "type": "image-with-text",
+        "blocks": {
+          "item_piQyVh": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/Collection_Image_1.png",
+              "tab_label": "",
+              "subheading": "",
+              "title": "Everyday Carry",
+              "content": "<p>Titanium belongs to EDC enthusiasts. It is not just the material; it is the value titanium carries along. The best material mother nature has to offer, which balances weight, strength, and durability. Titanium is also corrosion-resistant, making for a longer-lasting and desirable component for an EDC tool.</p>",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "item_piQyVh"
+        ],
+        "disabled": true,
+        "settings": {
+          "reveal_on_scroll": true,
+          "background_type": "full_width",
+          "background_overlap": "image",
+          "image_position": "left",
+          "text_alignment": "left",
+          "cycle_speed": 8,
+          "accent_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "gallery_xUrqrD": {
+        "type": "gallery",
+        "blocks": {
+          "image_gwbACX": {
+            "type": "image",
+            "repeater": "{{ product.metafields.custom.product_usage_cases.value }}",
+            "settings": {
+              "image": "{{ block.repeater.image.value }}",
+              "heading": "{{ block.repeater.heading.value }}",
+              "caption": "{{ block.repeater.content | metafield_tag }}"
+            }
+          }
+        },
+        "block_order": [
+          "image_gwbACX"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "product usage cases",
+          "show_arrows": true,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "gallery_Jpw4ea": {
+        "type": "gallery",
+        "blocks": {
+          "image_y3jpfK": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/product_usage_cases_1.jpg",
+              "heading": "",
+              "caption": "<p><strong>CROWBAR</strong><br/>Designed using an angle to protect your fingers, but also solid and durable for fast and easy use.</p>"
+            }
+          },
+          "image_nzMipa": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/product_usage_cases_2.jpg",
+              "heading": "",
+              "caption": "<p><strong>BOTTLE OPENER<br/><br/></strong>When it's time for a nice cold one, you will always be prepared. Not that you weren't anyway, but now you can open bottles with your PICHI X2.</p>"
+            }
+          }
+        },
+        "block_order": [
+          "image_y3jpfK",
+          "image_nzMipa"
+        ],
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "title": "product usage cases",
+          "show_arrows": true,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "image_with_text_7i8Pzi": {
+        "type": "image-with-text",
+        "blocks": {
+          "item_xEtmwt": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/Full_Leather_Holster.jpg",
+              "tab_label": "",
+              "subheading": "",
+              "title": "Full Leather Holster",
+              "content": "<p>Hand-crafted and authentic Australian leather holsters are perfect for the PICHI X2. You are keeping your EDC pocket tool safe and easily accessible when needed.</p>",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "item_xEtmwt"
+        ],
+        "disabled": true,
+        "settings": {
+          "reveal_on_scroll": true,
+          "background_type": "full_width",
+          "background_overlap": "image",
+          "image_position": "left",
+          "text_alignment": "left",
+          "cycle_speed": 8,
+          "accent_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "image_with_text_9WGjKL": {
+        "type": "image-with-text",
+        "blocks": {
+          "item_8kL7kQ": {
+            "type": "item",
+            "settings": {
+              "image": "shopify://shop_images/Multi-Size_Bolt_Nut_Wrench.jpg",
+              "tab_label": "",
+              "subheading": "",
+              "title": "Multi-Size Bolt Nut Wrench",
+              "content": "<p>With a wrench head that matches over 40 bolts and turns like a ratchet, you won't need any other tools when carrying a PICHI X2.Turn by turn; you will get the job done.</p>",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "item_8kL7kQ"
+        ],
+        "disabled": true,
+        "settings": {
+          "reveal_on_scroll": true,
+          "background_type": "full_width",
+          "background_overlap": "image",
+          "image_position": "right",
+          "text_alignment": "left",
+          "cycle_speed": 8,
+          "accent_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "multi_row_3rKMzE": {
+        "type": "multi-row",
+        "blocks": {
+          "add_blocks_VzyQQC": {
+            "type": "add_blocks",
+            "settings": {
+              "image": "{{ product.metafields.custom.product_information.value.section_6_multirow_1_image.value }}",
+              "image_position": "left",
+              "subheading": "",
+              "heading": "{{ product.metafields.custom.product_information.value.section_6_multirow_1_heading.value }}",
+              "content": "{{ product.metafields.custom.product_information.value.section_6_multirow_1_content | metafield_tag }}",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "add_blocks_7NXRWa": {
+            "type": "add_blocks",
+            "settings": {
+              "image": "{{ product.metafields.custom.product_information.value.section_6_multirow_2_image.value }}",
+              "image_position": "right",
+              "subheading": "",
+              "heading": "{{ product.metafields.custom.product_information.value.section_6_multirow_2_heading.value }}",
+              "content": "{{ product.metafields.custom.product_information.value.section_6_multirow_2_content | metafield_tag }}",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "add_blocks_VzyQQC",
+          "add_blocks_7NXRWa"
+        ],
+        "settings": {
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_top_mobile": 0,
+          "padding_bottom_mobile": 0
+        }
+      },
+      "logo_list_i8tqgc": {
+        "type": "logo-list",
+        "blocks": {
+          "logo_bJwLhg": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/7b9bd648842238b55808c0277cf93fb0_original_4.png",
+              "link": ""
+            }
+          },
+          "logo_tNbQAP": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/7b9bd648842238b55808c0277cf93fb0_original_2.png",
+              "link": ""
+            }
+          },
+          "logo_yHFatK": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Mask_group.png",
+              "link": ""
+            }
+          },
+          "logo_JgAmMJ": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Mask_group_1.png",
+              "link": ""
+            }
+          },
+          "logo_c6F4Pq": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify://shop_images/Mask_group_2.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "logo_bJwLhg",
+          "logo_tNbQAP",
+          "logo_yHFatK",
+          "logo_JgAmMJ",
+          "logo_c6F4Pq"
+        ],
+        "settings": {
+          "reveal_on_scroll": true,
+          "subheading": "",
+          "title": "FEATURED ON",
+          "button_text": "",
+          "button_link": "",
+          "stack_logos": false,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)",
+          "logo_background": "rgba(0,0,0,0)"
+        }
+      },
+      "rich_text_zdm7A3": {
+        "type": "rich-text",
+        "settings": {
+          "subheading": "",
+          "title": "VERIFIED CUSTOMER REVIEWS",
+          "content": "",
+          "button_text": "",
+          "button_link": "",
+          "background_type": "full_width",
+          "text_width": "fill",
+          "text_position": "center",
+          "text_alignment": "center",
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)",
+          "custome-class": ""
+        }
+      },
+      "17135380188f5992d8": {
+        "type": "apps",
+        "blocks": {
+          "loox_reviews_loox_dynamic_section_7HrFTU": {
+            "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+            "settings": {
+              "only_photos": false,
+              "aggregated": false,
+              "limit": 4,
+              "hide_thumbnails": false,
+              "maxwidth": 1280,
+              "is_sample": true
+            }
+          }
+        },
+        "block_order": [
+          "loox_reviews_loox_dynamic_section_7HrFTU"
+        ],
+        "settings": {
+          "include_horizontal_margins": true,
+          "include_vertical_margins": false
+        }
+      },
+      "faq_d6nKmf": {
+        "type": "faq",
+        "blocks": {
+          "question_axwP3c": {
+            "type": "question",
+            "settings": {
+              "title": "IS THE SHIPPING FREE?",
+              "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            }
+          },
+          "question_yQYy8B": {
+            "type": "question",
+            "settings": {
+              "title": "WHEN WILL I RECEIVE MY ITEM?",
+              "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            }
+          },
+          "question_QTiXwd": {
+            "type": "question",
+            "disabled": true,
+            "settings": {
+              "title": "HOW DO I CHANGE THE STRAP?",
+              "answer": ""
+            }
+          },
+          "question_mDbUFL": {
+            "type": "question",
+            "disabled": true,
+            "settings": {
+              "title": "CAN I CHANGE OR RETURN MY ITEM?",
+              "answer": ""
+            }
+          }
+        },
+        "block_order": [
+          "question_axwP3c",
+          "question_yQYy8B",
+          "question_QTiXwd",
+          "question_mDbUFL"
+        ],
+        "settings": {
+          "show_navigation": false,
+          "title": "FAQ'S",
+          "content": "",
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "subheading": "",
+          "title": "You may also like",
+          "recommendations_count": 4,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "newsletter_npJYge": {
+        "type": "newsletter",
+        "settings": {
+          "reveal_on_scroll": true,
+          "image": "shopify://shop_images/P1044075-2_16_9_1_82989af1-abc8-45ff-a367-da9e366f614e.png",
+          "subheading": "Subscribe to our newsletter",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
+          "text_position": "left",
+          "text_alignment": "left",
+          "text_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
+        }
+      }
+    },
+    "order": [
+      "main",
+      "product-content",
+      "video_yayrMY",
+      "image_with_text_CMzYxV",
+      "image_with_text_overlay_GFxNeF",
+      "rich_text_eWaCky",
+      "multi_row_GL7V9n",
+      "two_image_with_text_QrRfRJ",
+      "rich_text_f7xzHq",
+      "multi_row_QPapij",
+      "two_image_with_text_WHAQ7p",
+      "image_with_text_bWa3a8",
+      "gallery_xUrqrD",
+      "gallery_Jpw4ea",
+      "image_with_text_7i8Pzi",
+      "image_with_text_9WGjKL",
+      "multi_row_3rKMzE",
+      "logo_list_i8tqgc",
+      "rich_text_zdm7A3",
+      "17135380188f5992d8",
+      "faq_d6nKmf",
+      "product-recommendations",
+      "newsletter_npJYge"
+    ]
+  }
+  

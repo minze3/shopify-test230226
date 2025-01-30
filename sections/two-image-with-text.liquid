@@ -1,0 +1,371 @@
+{% comment %}
+  Two-image-text section template
+{% endcomment %}
+<style>
+    #shopify-section-{{ section.id }}{
+  padding-top:{{section.settings.padding_top}}px;
+  padding-bottom:{{section.settings.padding_bottom}}px;
+  }
+   #shopify-section-{{ section.id }} .image-column .mobile-image{
+       display:none;
+     }
+      #shopify-section-{{ section.id }} .image-column .desktop-image{
+       display:block;
+     }
+   @media screen and (max-width: 768px) {
+      #shopify-section-{{ section.id }}{
+        padding-top:{{section.settings.padding_top_mobile}}px;
+        padding-bottom:{{section.settings.padding_bottom_mobile}}px;
+        padding-left:16px;
+        padding-right:16px;
+    }
+    #shopify-section-{{ section.id }} .image-column .mobile-image{
+       display:block;
+     }
+     #shopify-section-{{ section.id }} .image-column .desktop-image{
+       display:none;
+     }
+  }
+</style>
+{% assign show_section = true %}
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'image' %}
+      {% if block.settings.image == blank or block.settings.mobile_image == blank %}
+        {% assign show_section = false %}
+        {% break %}
+      {% endif %}
+    {% when 'image_with_content' %}
+      {% if block.settings.image_1 == blank or block.settings.heading == blank or block.settings.content == blank %}
+        {% assign show_section = false %}
+        {% break %}
+      {% endif %}
+  {% endcase %}
+{% endfor %}
+
+{% if show_section %}
+  <div class="two-image-text-section">
+    <div class="row">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'image' %}
+            <div class="image-column">
+              {%- if block.settings.image != blank -%}
+                <img
+                  src="{{ block.settings.image | img_url: 'master' }}"
+                   srcset="{{ block.settings.image | img_url: '400x' }} 400w, 
+            {{ block.settings.image | img_url: '800x' }} 800w, 
+            {{ block.settings.image | img_url: '1200x' }} 1200w"
+    sizes="(max-width: 600px) 400px, 
+           (max-width: 1024px) 800px, 
+           1200px"
+                  alt="Image"
+                  class="desktop-image"
+                  style="aspect-ratio: auto;"
+                  loading="lazy"
+                >
+              {% endif %}
+              {%- if block.settings.mobile_image != blank -%}
+                <img
+                  src="{{ block.settings.mobile_image | img_url: 'master' }}"
+                  alt="Image"
+                  class="mobile-image"
+                  style="aspect-ratio: auto;"
+                  loading="lazy"
+                   srcset="{{ block.settings.mobile_image | img_url: '400x' }} 400w, 
+            {{ block.settings.mobile_image | img_url: '800x' }} 800w, 
+            {{ block.settings.mobile_image | img_url: '1200x' }} 1200w"
+    sizes="(max-width: 600px) 400px, 
+           (max-width: 1024px) 800px, 
+           1200px"
+                >
+              {% endif %}
+            </div>
+          {% when 'image_with_content' %}
+            {% assign img_count = 'img_count_one' %}
+            {% if block.settings.image_1 != blank and block.settings.image_2 != blank %}
+              {% assign img_count = 'img_count_two' %}
+            {% endif %}
+            <div class="content-column {{ img_count }}">
+              <div class="image-wrapper">
+                {%- if block.settings.image_1 != blank -%}
+                  <img src="{{ block.settings.image_1 | img_url: 'master' }}" alt="Image" loading="lazy"  srcset="{{ block.settings.image_1 | img_url: '400x' }} 400w, 
+            {{ block.settings.image_1 | img_url: '800x' }} 800w, 
+            {{ block.settings.image_1 | img_url: '1200x' }} 1200w"
+    sizes="(max-width: 600px) 400px, 
+           (max-width: 1024px) 800px, 
+           1200px">
+                {% endif %}
+                {%- if block.settings.image_2 != blank -%}
+                  <img src="{{ block.settings.image_2 | img_url: 'master' }}" alt="Image" loading="lazy"  srcset="{{ block.settings.image_2 | img_url: '400x' }} 400w, 
+            {{ block.settings.image_2 | img_url: '800x' }} 800w, 
+            {{ block.settings.image_2 | img_url: '1200x' }} 1200w"
+    sizes="(max-width: 600px) 400px, 
+           (max-width: 1024px) 800px, 
+           1200px">
+                {% endif %}
+              </div>
+              <div class="content">
+                {%- if block.settings.subheading != blank -%}
+                  <h2 class="heading heading--small">
+                    <split-lines>{{ block.settings.subheading | escape }}</split-lines>
+                  </h2>
+                {%- endif -%}
+                <h2 class="tiwt-block-heading">{{ block.settings.heading }}</h2>
+                {{ block.settings.content }}
+                {% if block.settings.button_link != blank %}
+                  <a href="{{ block.settings.button_link }}" class="button button--primary">
+                    {{- block.settings.button_text -}}
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+{% schema %}
+{
+  "name": "Two Image with text",
+  "tag": "section",
+  "class": "two-image-text-section",
+  "settings": [
+       {
+        "type": "header",
+        "content": "Desktop"
+        },
+       {
+          "type": "range",
+          "label": "Padding Top",
+          "id": "padding_top",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "label": "Padding Bottom",
+          "id": "padding_bottom",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "step": 1
+        },
+       {
+        "type": "header",
+        "content": "Desktop"
+        },
+         {
+          "type": "range",
+          "label": "Padding Top",
+          "id": "padding_top_mobile",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "label": "Padding Bottom",
+          "id": "padding_bottom_mobile",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "step": 1
+        }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+          "type": "image_picker",
+          "label": "Mobile Image",
+          "id": "mobile_image"
+        }
+      ]
+    },
+    {
+      "type": "image_with_content",
+      "name": "Image with content",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image 1",
+          "id": "image_1"
+        },
+        {
+          "type": "image_picker",
+          "label": "Image 2",
+          "id": "image_2"
+        },
+        {
+          "type": "text",
+          "label": "Subheading",
+          "id": "subheading"
+        },
+        {
+          "type": "text",
+          "label": "Heading",
+          "id": "heading"
+        },
+        {
+          "type": "richtext",
+          "label": "Content",
+          "id": "content"
+        },
+        {
+          "type": "text",
+          "label": "Button Text",
+          "id": "button_text"
+        },
+        {
+          "type": "url",
+          "label": "Button Link",
+          "id": "button_link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Image with text"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+  .two-image-text-section {
+  	margin: 0 0;
+  }
+
+  .two-image-text-section .row {
+  	display: flex;
+  	align-items: start;
+  }
+
+  .two-image-text-section .row-reverse {
+  	flex-direction: row-reverse;
+  }
+
+  .two-image-text-section .image-column,
+  .content-column {
+  	flex: 1;
+  }
+
+  .two-image-text-section .image-column img {
+  	max-width: 100%;
+  	/* height: auto; */
+  	height: 800px;
+  	width: 100%;
+  }
+
+  .two-image-text-section .content-column .content {
+  	width: 490px;
+  }
+
+  .two-image-text-section .content-column .content p {
+  	font-size: 18px;
+  	font-weight: 400;
+  	line-height: 27px;
+  }
+
+  .two-image-text-section h2.tiwt-block-heading {
+  	font-family: TVPS Vain Capital;
+  	font-weight: 400;
+  	font-size: 32px;
+  	line-height: 40px;
+  	color: #151515;
+  	margin-bottom: 32px;
+  }
+
+  .two-image-text-section .row .content {
+  	margin-right: auto !important;
+  	margin-left: auto;
+  	margin-top: 72px;
+  	margin-bottom: auto;
+  }
+
+  .two-image-text-section .content-column .image-wrapper {
+  	display: flex;
+  }
+
+  .two-image-text-section .content-column.img_count_one .image-wrapper img {
+  	width: 100%;
+  	height: 382px;
+  }
+
+  .two-image-text-section .content-column.img_count_two .image-wrapper img {
+  	width: 50%;
+  }
+
+  @media screen and (max-width: 1200px) {
+  	.two-image-text-section .row {
+  		flex-direction: column;
+  		/* Stack items vertically */
+  	}
+
+  	.two-image-text-section .row-reverse {
+  		flex-direction: column;
+  		/* Also stack items vertically for reversed rows */
+  	}
+
+  	.two-image-text-section .image-column,
+  	.two-image-text-section .content-column {
+  		width: 100%;
+  		/* Make columns take full width */
+  	}
+
+  	.two-image-text-section .content-column .content {
+  		padding: 32px 16px 48px 16px;
+  		width: auto;
+  	}
+
+  	.two-image-text-section h2.tiwt-block-heading {
+  		font-size: 20px;
+  		line-height: 24px;
+  		margin-bottom: 8px;
+  	}
+
+  	.two-image-text-section .content-column .content p {
+  		font-size: 16px;
+  		line-height: 24px;
+  	}
+
+  	.two-image-text-section .row:not(.row-reverse) .content,
+  	.two-image-text-section .row.row-reverse .content {
+  		margin: 0 !important;
+  	}
+
+  	.two-image-text-section .content-column.img_count_two .image-wrapper img {
+  		width: 50%;
+  	}
+
+  	.two-image-text-section .content-column.img_count_one .image-wrapper img {
+  		height: 100%;
+  	}
+
+  	.two-image-text-section .image-column img {
+  		height: 100%;
+  	}
+
+  	.content-column.img_count_two {
+  		display: flex;
+  		flex-direction: column-reverse;
+  	}
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

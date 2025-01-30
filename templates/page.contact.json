@@ -1,1 +1,47 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":36}},"form":{"type":"contact-form","settings":{"heading":"","heading_size":"h1","color_scheme":"background-1","padding_top":36,"padding_bottom":36}}},"order":["main","form"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/X2_6.jpg",
+        "title": "Contact Us",
+        "content": "<p>Just fill out the form below and we'll get back to you as soon as possible.<\/p>",
+        "text_1_heading": "Pichi Headquarters",
+        "text_1_text": "<p>Calgary, Canada<\/p>",
+        "text_2_heading": "EMAIL",
+        "text_2_text": "<p>support@pichi.ca<\/p>",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "newsletter_cUqAgr": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/L1030614_936c4dfa-d0ca-4f70-ac9c-7b2c6604fa1c.jpg",
+        "subheading": "Ready to Collaborate with Us?",
+        "content": "<p>Your support goes beyond purchasing an innovative tool. Join us in witnessing this extraordinary journey.<\/p>",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact-form",
+    "newsletter_cUqAgr"
+  ]
+}

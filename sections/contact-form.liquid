@@ -1,217 +1,335 @@
-{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+{%- if section.settings.background != settings.background and section.settings.background != 'rgba(0,0,0,0)' -%}
+  {%- assign blends_with_background = false -%}
+{%- else -%}
+  {%- assign blends_with_background = true -%}
+{%- endif -%}
 
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
-<div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
-    {%- if section.settings.heading != blank -%}
-      <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        {{ section.settings.heading }}
-      </h2>
+<style>
+  #shopify-section-{{ section.id }} {
+    {%- if section.settings.background == 'rgba(0,0,0,0)' -%}
+      {%- assign section_background = settings.background -%}
     {%- else -%}
-      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+      {%- assign section_background = section.settings.background -%}
     {%- endif -%}
-    {%- liquid
-      assign contact_form_class = 'isolate'
-      if settings.animations_reveal_on_scroll
-        assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
-      endif
-    -%}
-    {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
-      {%- if form.posted_successfully? -%}
-        <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
-          {{- 'icon-success.svg' | inline_asset_content -}}
-          {{ 'templates.contact.form.post_success' | t }}
-        </h2>
-      {%- elsif form.errors -%}
-        <div class="form__message">
-          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
-            {{- 'icon-error.svg' | inline_asset_content -}}
-            {{ 'templates.contact.form.error_heading' | t }}
-          </h2>
-        </div>
-        <ul class="form-status-list caption-large" role="list">
-          <li>
-            <a href="#ContactForm-email" class="link">
-              {{ form.errors.translated_fields.email | capitalize }}
-              {{ form.errors.messages.email }}
-            </a>
-          </li>
-        </ul>
-      {%- endif -%}
-      <div class="contact__fields">
-        <div class="field">
-          <input
-            class="field__input"
-            autocomplete="name"
-            type="text"
-            id="ContactForm-name"
-            name="contact[{{ 'templates.contact.form.name' | t }}]"
-            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
-            placeholder="{{ 'templates.contact.form.name' | t }}"
-          >
-          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
-        </div>
-        <div class="field field--with-error">
-          <input
-            autocomplete="email"
-            type="email"
-            id="ContactForm-email"
-            class="field__input"
-            name="contact[email]"
-            spellcheck="false"
-            autocapitalize="off"
-            value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
-            aria-required="true"
-            {% if form.errors contains 'email' %}
-              aria-invalid="true"
-              aria-describedby="ContactForm-email-error"
-            {% endif %}
-            placeholder="{{ 'templates.contact.form.email' | t }}"
-          >
-          <label class="field__label" for="ContactForm-email">
-            {{- 'templates.contact.form.email' | t }}
-            <span aria-hidden="true">*</span></label
-          >
-          {%- if form.errors contains 'email' -%}
-            <small class="contact__field-error" id="ContactForm-email-error">
-              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
-              <span class="form__message">
-                <span class="svg-wrapper">
-                  {{- 'icon-error.svg' | inline_asset_content -}}
-                </span>
-                {{- form.errors.translated_fields.email | capitalize }}
-                {{ form.errors.messages.email -}}
-              </span>
-            </small>
+
+    {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign heading_color = settings.heading_color -%}
+      {%- assign text_color = settings.text_color -%}
+    {%- else -%}
+      {%- assign heading_color = section.settings.text_color -%}
+      {%- assign text_color = section.settings.text_color -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_background == 'rgba(0,0,0,0)' -%}
+      {%- assign button_background = settings.primary_button_background -%}
+    {%- else -%}
+      {%- assign button_background = section.settings.button_background -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign button_text_color = settings.primary_button_text_color -%}
+    {%- else -%}
+      {%- assign button_text_color = section.settings.button_text_color -%}
+    {%- endif -%}
+
+    --heading-color: {{ heading_color.red }}, {{ heading_color.green }}, {{ heading_color.blue }};
+    --text-color: {{ text_color.red }}, {{ text_color.green }}, {{ text_color.blue }};
+    --primary-button-background: {{ button_background.red }}, {{ button_background.green }}, {{ button_background.blue }};
+    --primary-button-text-color: {{ button_text_color.red }}, {{ button_text_color.green }}, {{ button_text_color.blue }};
+
+    --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
+  }
+</style>
+
+<section class="section {% if template.name == 'page' and template.suffix contains 'contact' %}section--tight{% endif %} {% unless blends_with_background %}section--flush{% endunless %}">
+  <div class="section__color-wrapper">
+    <div class="container">
+      <div class="contact {% unless blends_with_background %}vertical-breather{% endunless %}">
+        {%- capture aside_content -%}
+          {%- if section.settings.image != blank -%}
+            {{- section.settings.image | image_url: width: section.settings.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) calc(100vw - 24px * 2), 530px', widths: '200,300,400,500,600,800,1000,1200,1400', class: 'contact__image' -}}
           {%- endif -%}
+
+          {%- capture aside_text_1 -%}
+            {%- if section.settings.text_1_heading != blank or section.settings.text_1_text != blank -%}
+              {%- if section.settings.text_1_heading != blank -%}
+                <p class="heading heading--small">{{ section.settings.text_1_heading | escape }}</p>
+              {%- endif -%}
+
+              {%- if section.settings.text_1_text != blank -%}
+                <div class="rte">
+                  {{- section.settings.text_1_text -}}
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endcapture -%}
+
+          {%- capture aside_text_2 -%}
+            {%- if section.settings.text_2_heading != blank or section.settings.text_2_text != blank -%}
+              {%- if section.settings.text_2_heading != blank -%}
+                <p class="heading heading--small">{{ section.settings.text_2_heading | escape }}</p>
+              {%- endif -%}
+
+              {%- if section.settings.text_2_text != blank -%}
+                <div class="rte">
+                  {{- section.settings.text_2_text -}}
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endcapture -%}
+
+          {%- if aside_text_1 != blank or aside_text_2 != blank -%}
+            <div class="contact__text-list">
+              {%- if aside_text_1 != blank -%}
+                <div class="contact__text-item text-container">
+                  {{- aside_text_1 -}}
+                </div>
+              {%- endif -%}
+
+              {%- if aside_text_2 != blank -%}
+                <div class="contact__text-item text-container">
+                  {{- aside_text_2 -}}
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        {%- endcapture -%}
+
+        <div class="contact__main">
+          {%- if section.settings.title != blank or section.settings.content != blank -%}
+            <header class="section__header {% if section.settings.content != blank %}section__header--tight{% endif %} text-container">
+              {%- if section.settings.title != blank -%}
+                <h2 class="heading h2">{{ section.settings.title }}</h2>
+              {%- endif -%}
+
+              {%- if section.settings.content != blank -%}
+                {{- section.settings.content -}}
+              {%- endif -%}
+            </header>
+          {%- endif -%}
+
+          {%- form 'contact', class: 'contact__form form' -%}
+            {%- if form.posted_successfully? -%}
+              <div class="banner banner--success form__banner">
+                <span class="banner__ribbon">{% render 'icon' with 'form-success' %}</span>
+                <p class="banner__content">{{ 'contact.form.successfully_sent' | t }}</p>
+              </div>
+            {%- endif -%}
+
+            {%- if form.errors -%}
+              <div class="form__banner banner banner--error">
+                <span class="banner__ribbon">{% render 'icon' with 'form-error' %}</span>
+
+                <div class="banner__content">
+                  {{- form.errors | default_errors -}}
+                </div>
+              </div>
+            {%- endif -%}
+
+            <div class="input">
+              <input id="contact-form-name" type="text" class="input__field {% if customer.name != blank %}is-filled{% endif %}" name="contact[name]" aria-label="{{ 'contact.form.name' | t }}" required {% if customer %}value="{{ customer.name }}"{% endif %}>
+              <label for="contact-form-name" class="input__label">{{ 'contact.form.name' | t }}</label>
+            </div>
+
+            <div class="input">
+              <input id="contact-form-email" type="email" class="input__field {% if customer.email != blank %}is-filled{% endif %}" name="contact[email]" aria-label="{{ 'contact.form.email' | t }}" required {% if customer %}value="{{ customer.email }}"{% endif %}>
+              <label for="contact-form-email" class="input__label">{{ 'contact.form.email' | t }}</label>
+            </div>
+
+            {%- for block in section.blocks -%}
+              {%- assign field_title = block.settings.title -%}
+
+              {%- if field_title == blank -%}
+                {%- capture field_title -%}Custom field {% increment custom_field %}{%- endcapture -%}
+              {%- endif -%}
+
+              {%- if block.type == 'text' -%}
+                <div class="input">
+                  {%- if block.settings.use_long_text -%}
+                    <textarea id="contact-form-{{ field_title | handle }}" name="contact[{{ field_title | escape }}]" rows="4" class="input__field input__field--textarea" aria-label="{{ block.settings.title | escape }}" {% if block.settings.is_required %}required{% endif %}></textarea>
+                    <label for="contact-form-{{ field_title | handle }}" class="input__label">{{ block.settings.title | escape }}</label>
+                  {%- else -%}
+                    <input id="contact-form-{{ field_title | handle }}" type="text" class="input__field" name="contact[{{ field_title | escape }}]" aria-label="{{ block.settings.title | escape }}" {% if block.settings.is_required %}required{% endif %}>
+                    <label for="contact-form-{{ field_title | handle }}" class="input__label">{{ block.settings.title | escape }}</label>
+                  {%- endif -%}
+                </div>
+              {%- elsif block.type == 'dropdown' -%}
+                {%- assign values = block.settings.values | split: ',' -%}
+
+                {%- if values == empty -%}
+                  {%- continue -%}
+                {%- endif -%}
+
+                <div class="input">
+                  <div class="select-wrapper">
+                    <select id="contact-form-{{ field_title | handle }}" class="select" name="contact[{{ field_title | escape }}]" title="{{ block.settings.title | escape }}" required>
+                      <option value="" disabled selected></option>
+
+                      {%- for value in values -%}
+                        {%- assign trim_value = value | strip -%}
+
+                        <option value="{{ trim_value | escape }}">{{ trim_value | escape }}</option>
+                      {%- endfor -%}
+                    </select>
+
+                    {%- render 'icon' with 'chevron' -%}
+                  </div>
+
+                  <label for="contact-form-{{ field_title | handle }}" class="input__label">{{ block.settings.title | escape }}</label>
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+
+            <div class="input">
+              <textarea id="contact-form-message" name="contact[body]" rows="4" class="input__field input__field--textarea" aria-label="{{ 'contact.form.message' | t }}" required></textarea>
+              <label for="contact-form-message" class="input__label">{{ 'contact.form.message' | t }}</label>
+            </div>
+
+            <button is="loader-button" type="submit" class="form__submit button button--primary button--full">{{ 'contact.form.submit' | t }}</button>
+          {%- endform -%}
         </div>
+
+        {%- if aside_content != blank -%}
+          <aside class="contact__aside">
+            {{- aside_content -}}
+          </aside>
+        {%- endif -%}
       </div>
-      <div class="field">
-        <input
-          type="tel"
-          id="ContactForm-phone"
-          class="field__input"
-          autocomplete="tel"
-          name="contact[{{ 'templates.contact.form.phone' | t }}]"
-          pattern="[0-9\-]*"
-          value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
-          placeholder="{{ 'templates.contact.form.phone' | t }}"
-        >
-        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
-      </div>
-      <div class="field">
-        <textarea
-          rows="10"
-          id="ContactForm-body"
-          class="text-area field__input"
-          name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
-        >
-          {{- form.body -}}
-        </textarea>
-        <label class="form__label field__label" for="ContactForm-body">
-          {{- 'templates.contact.form.comment' | t -}}
-        </label>
-      </div>
-      <div class="contact__button">
-        <button type="submit" class="button">
-          {{ 'templates.contact.form.send' | t }}
-        </button>
-      </div>
-    {%- endform -%}
+    </div>
   </div>
-</div>
+</section>
 
 {% schema %}
 {
-  "name": "t:sections.contact-form.name",
-  "tag": "section",
-  "class": "section",
+  "name": "Contact",
+  "class": "shopify-section--contact-form",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": ["header", "custom.overlay"]
   },
   "settings": [
     {
-      "type": "inline_richtext",
-      "id": "heading",
-      "default": "t:sections.contact-form.settings.title.default",
-      "label": "t:sections.contact-form.settings.title.label"
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1000 x 1000px .jpg recommended"
     },
     {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        },
-        {
-          "value": "hxl",
-          "label": "t:sections.all.heading_size.options__4.label"
-        },
-        {
-          "value": "hxxl",
-          "label": "t:sections.all.heading_size.options__5.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Contact Us"
     },
     {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
     },
     {
       "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
+      "content": "Block 1"
     },
     {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
+      "type": "text",
+      "id": "text_1_heading",
+      "label": "Heading"
     },
     {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "type": "richtext",
+      "id": "text_1_text",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Block 2"
+    },
+    {
+      "type": "text",
+      "id": "text_2_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "text_2_text",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text field",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_long_text",
+          "label": "Use long text",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "is_required",
+          "label": "Field is required",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "dropdown",
+      "name": "Dropdown",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "text",
+          "id": "values",
+          "label": "Values",
+          "info": "Separate each value by a comma.",
+          "default": "value 1, value 2, value 3"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "t:sections.contact-form.presets.name"
+      "name": "Contact form",
+      "settings": {}
     }
   ]
 }

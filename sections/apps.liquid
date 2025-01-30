@@ -1,20 +1,28 @@
-<div class="{% if section.settings.include_margins %}page-width{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+<div class="{% if section.settings.include_horizontal_margins %}container{% endif %} {% if section.settings.include_vertical_margins %}vertical-breather{% endif %}">
   {%- for block in section.blocks -%}
-    {% render block %}
+    {%- render block -%}
   {%- endfor -%}
 </div>
 
 {% schema %}
 {
-  "name": "t:sections.apps.name",
-  "tag": "section",
-  "class": "section",
+  "name": "Apps",
+  "class": "shopify-section--apps",
+  "disabled_on": {
+    "groups": ["custom.overlay"]
+  },
   "settings": [
     {
       "type": "checkbox",
-      "id": "include_margins",
-      "default": true,
-      "label": "t:sections.apps.settings.include_margins.label"
+      "id": "include_horizontal_margins",
+      "label": "Include horizontal margins",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "include_vertical_margins",
+      "label": "Include vertical margins",
+      "default": true
     }
   ],
   "blocks": [
@@ -24,7 +32,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.apps.presets.name"
+      "name": "Apps"
     }
   ]
 }

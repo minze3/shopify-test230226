@@ -1,1 +1,22 @@
-{"sections":{"main":{"type":"main-order","settings":{"padding_top":36,"padding_bottom":36}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-order",
+      "blocks": {
+        "order": {
+          "type": "order",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "order"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

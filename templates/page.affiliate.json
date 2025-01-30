@@ -1,0 +1,274 @@
+{
+  "sections": {
+    "image_with_text_overlay_zRwyQf": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/Family3_ac691c8b-fd15-4904-a049-fd97566cba18.jpg",
+        "subheading": "Affiliate Program",
+        "title": "Earn with Every Slice",
+        "content": "",
+        "button_text": "JOIN NOW",
+        "button_link": "https:\/\/pichi.goaffpro.com\/create-account",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "contentmax_width": 525,
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_g8EtQb": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>At Pichi Design, we’re passionate about crafting high-quality everyday carry (EDC) knives that seamlessly blend functionality with aesthetics. Our knives are meticulously designed and engineered to meet the demands of modern adventurers, outdoor enthusiasts, and everyday users alike. With a focus on precision, durability, and innovation, Pichi Design has become synonymous with reliability in the EDC community.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "custome-class": ""
+      }
+    },
+    "rich_text_ktc8Y7": {
+      "type": "rich-text",
+      "custom_css": [
+        "{margin-bottom: -64px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Why Partner with Us?",
+        "content": "<p>Joining our Affiliate Program offers you an exciting opportunity to collaborate with a trusted brand in the EDC industry. Here’s why partnering with Pichi Design is a smart choice:<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "custome-class": ""
+      }
+    },
+    "text_with_icons_7UBTGg": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_mj4gBr": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Uncompromising_Quality.svg",
+            "custom_icon_width": 50,
+            "title": "High-Quality Products",
+            "content": "<p>Pichi Design knives are crafted using premium materials and cutting-edge manufacturing techniques, ensuring unmatched quality and performance.<\/p>"
+          }
+        },
+        "item_yr4k3j": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Community-Centric_Approach.svg",
+            "custom_icon_width": 50,
+            "title": "Strong Brand Reputation",
+            "content": "<p>With a growing community of loyal customers and positive reviews, Pichi Design has established itself as a reputable brand known for excellence.<\/p>"
+          }
+        },
+        "item_hXixLN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Generous_Commission.svg",
+            "custom_icon_width": 50,
+            "title": "Generous Commission",
+            "content": "<p>Earn competitive commissions on every sale generated through your unique affiliate link. We value our affiliates and offer attractive incentives for your efforts.<\/p>"
+          }
+        },
+        "item_Kd4fzG": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/Promotion.svg",
+            "custom_icon_width": 50,
+            "title": "Exclusive Promotions",
+            "content": "<p>Gain access to exclusive promotions, discounts, and product launches, empowering you to maximize your earning potential.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_mj4gBr",
+        "item_yr4k3j",
+        "item_hXixLN",
+        "item_Kd4fzG"
+      ],
+      "settings": {
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_EytJLH": {
+      "type": "rich-text",
+      "custom_css": [
+        "{margin-bottom: -64px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "How It Works",
+        "content": "<p>Joining our Affiliate Program is quick, easy, and free. Here’s a simple breakdown of how it works:<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "custome-class": ""
+      }
+    },
+    "text_with_icons_pFgjGW": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_dUFFK7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Purpose-Driven_Innovation.svg",
+            "custom_icon_width": 50,
+            "title": "Apply",
+            "content": "<p>Complete our online application form to apply for the Affiliate Program. We carefully review each application to ensure compatibility and alignment with our brand values.<\/p>"
+          }
+        },
+        "item_CgJkUm": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Approval.svg",
+            "custom_icon_width": 50,
+            "title": "Approval",
+            "content": "<p>Once approved, you’ll receive access to your personalized affiliate dashboard, where you can access your unique affiliate link, track your performance, and monitor your earnings in real-time.<\/p>"
+          }
+        },
+        "item_FrGLQ6": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Promotion_2.svg",
+            "custom_icon_width": 50,
+            "title": "Promote",
+            "content": "<p>Start promoting Pichi Design products on your website, blog, social media channels, or other platforms using your affiliate link. Share your genuine enthusiasm for our products with your audience and watch your commissions grow.<\/p>"
+          }
+        },
+        "item_hwCqPt": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/Generous_Commission.svg",
+            "custom_icon_width": 50,
+            "title": "Earn Commissions",
+            "content": "<p>Earn commissions on every sale generated through your affiliate link. The more sales you drive, the more you earn—it’s that simple!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_dUFFK7",
+        "item_CgJkUm",
+        "item_FrGLQ6",
+        "item_hwCqPt"
+      ],
+      "settings": {
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "image_with_text_overlay_HNbDAC": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/6Pics.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "contentmax_width": 525,
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_7xbEig": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_Hw7YDL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L1040387-_-NR_a65390f8-1232-4627-b8f5-6449a7718a3d.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Join Our Affiliate Program Today!",
+            "content": "<p>Ready to become a valued partner of Pichi Design and start earning commissions for promoting our premium EDC knives? Apply now to join our Affiliate Program and embark on a rewarding journey with us.<\/p>",
+            "button_text": "JOIN NOW",
+            "button_link": "https:\/\/pichi.goaffpro.com\/create-account"
+          }
+        }
+      },
+      "block_order": [
+        "item_Hw7YDL"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_zRwyQf",
+    "rich_text_g8EtQb",
+    "rich_text_ktc8Y7",
+    "text_with_icons_7UBTGg",
+    "rich_text_EytJLH",
+    "text_with_icons_pFgjGW",
+    "main",
+    "image_with_text_overlay_HNbDAC",
+    "image_with_text_7xbEig"
+  ]
+}

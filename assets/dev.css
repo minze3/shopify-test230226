@@ -1,0 +1,95 @@
+/* New Css Multi-row  01-22-25 */
+.multi-row-section .image-column, .content-column {
+    flex: unset;
+    width: 50%;
+}
+.multi-row-section .image-column img{
+    object-fit: cover;
+}
+/* New Css two-image-text-section 01-22-25 */
+@media only screen and (min-width: 1730px) {
+    .two-image-text-section .row .content {
+        margin-top: 40px;
+    }
+    .two-image-text-section .content-column .content {
+        width: 540px;
+    }
+  }
+@media only screen and (max-width: 1729px) {
+    .two-image-text-section .row .content {
+        margin-top: 40px;
+    }
+    .two-image-text-section .content-column .content {
+        width: 540px;
+    }
+  }
+@media only screen and (max-width: 1726px) {
+    .two-image-text-section .content-column .content {
+        width: 540px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .two-image-text-section .content-column .content {
+        width: 100%;
+    }
+    .multi-row-section .content-column .content {
+        width: 520px;
+    }
+  }
+  @media only screen and (max-width: 820px){
+    .multi-row-section .content-column .content {
+        width: 100%;
+    }
+  }
+/* ============================================ */
+@media(min-width:768px) and (max-width:1100px){
+    .container {padding-inline: var(--container-gutter);}
+    .shopify-section--newsletter .image-with-text-block--small {
+        aspect-ratio: auto !important;
+    }
+    
+    .multi-row-section h4 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    
+    .two-image-text-section .row:not(.row-reverse) .content, .two-image-text-section .row.row-reverse .content {
+        padding-inline: var(--container-gutter);
+    }
+    
+    .multi-row-section .row-reverse .content {
+        padding-left: var(--container-gutter);
+        margin: 0 !important;
+        padding-right: 40px !important;
+    }
+    
+    .multi-row-section .not-reverse .content, .multi-row-section .row:not(.row-reverse) .content {
+        padding-right: var(--container-gutter) !important;
+        margin: 0 !important;
+        padding-left: 40px;
+    }
+    .multi-row-section .content-column .content{
+    width:auto !important
+    }
+    .shopify-section--newsletter .image-with-text-block--small {
+      aspect-ratio: auto !important;
+    }
+    .multi-row-section .image-column img {width: 100%;}
+    
+    
+    .multi-row-section .image-column, .content-column {
+        width: 50%;
+    }
+    }
+    /* New Css Multi-row  01-22-25 */
+@media (max-width: 992px) {
+    .multi-row-section .image-column, .multi-row-section .content-column {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .multi-row-section .image-column, .content-column {
+        width: 100%;
+    }
+}
